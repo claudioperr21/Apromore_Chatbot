@@ -23,7 +23,7 @@ from main import (
 
 # Configuration
 BASE_DIR = r"C:\Users\claud\OneDrive\Desktop\ESADE\Masters in Busienss Analytics\Apromore In-company project\Apromore Chatbot\Data Sources"
-SALESFORCE_FILE = "SalesforceOffice_synthetic_varied_100users_V1.csv"
+SALESFORCE_FILE = "SalesforceOffice_synthetic_varied_100users_V1_with_teams.csv"
 AMADEUS_FILE = "amadeus-demo-full-no-fields.csv"
 CHARTS_DIR = os.path.join(BASE_DIR, "charts")
 os.makedirs(CHARTS_DIR, exist_ok=True)

@@ -1,0 +1,1996 @@
+Case_ID,Activity,duration_seconds,duration_min,Step
+931,Status Working,0.0,0.0,Status Working
+934,Status Escalated,2.297577809,0.03829296348333333,Status Escalated
+934,Status In Progress,0.0,0.0,Status In Progress
+935,Status Escalated,4.809510657000001,0.08015851095000001,Status Escalated
+935,Status In Progress,0.0,0.0,Status In Progress
+935,Status Response Received,0.0,0.0,Status Response Received
+935,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+935,Status Working,0.655009611,0.01091682685,Status Working
+936,Status Escalated,2.314717498,0.03857862496666666,Status Escalated
+936,Status Response Received,0.0,0.0,Status Response Received
+936,Status Working,0.0,0.0,Status Working
+937,Status Escalated,108.4449425,1.8074157083333333,Status Escalated
+937,Status In Progress,0.0,0.0,Status In Progress
+937,Status Waiting for Customer,0.848363247,0.01413938745,Status Waiting for Customer
+938,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+939,Status Escalated,0.0,0.0,Status Escalated
+939,Status On Hold,0.0,0.0,Status On Hold
+939,Status Response Received,0.0,0.0,Status Response Received
+939,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+940,Status Response Received,0.0,0.0,Status Response Received
+940,Status Waiting for Customer,0.935446618,0.015590776966666666,Status Waiting for Customer
+941,Created.,3.043249523,0.050720825383333334,Created.
+941,Status Escalated,124.6046266,2.0767437766666665,Status Escalated
+941,Status In Progress,0.0,0.0,Status In Progress
+941,Status Response Received,0.0,0.0,Status Response Received
+941,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+942,Created.,3.118954878,0.0519825813,Created.
+942,Status Response Received,0.0,0.0,Status Response Received
+942,Status Waiting for Customer,0.944290601,0.015738176683333334,Status Waiting for Customer
+943,Status Escalated,107.6717781,1.794529635,Status Escalated
+943,Status In Progress,0.0,0.0,Status In Progress
+943,Status Response Received,0.0,0.0,Status Response Received
+943,Status Working,0.0,0.0,Status Working
+944,Status In Progress,0.0,0.0,Status In Progress
+944,Status Response Received,0.0,0.0,Status Response Received
+945,Status In Progress,0.0,0.0,Status In Progress
+945,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+947,Status On Hold,0.0,0.0,Status On Hold
+947,Status Response Received,0.0,0.0,Status Response Received
+947,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+948,Status Working,0.768280654,0.012804677566666667,Status Working
+949,Status Escalated,0.0,0.0,Status Escalated
+949,Status Response Received,0.0,0.0,Status Response Received
+949,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+950,Status On Hold,0.0,0.0,Status On Hold
+950,Status Response Received,0.0,0.0,Status Response Received
+950,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+950,Status Working,0.0,0.0,Status Working
+951,Created.,3.191919273,0.053198654549999995,Created.
+951,Status In Progress,8.160480895,0.13600801491666664,Status In Progress
+951,Status Response Received,0.0,0.0,Status Response Received
+951,Status Waiting for Customer,0.817207884,0.0136201314,Status Waiting for Customer
+952,Status In Progress,0.0,0.0,Status In Progress
+952,Status On Hold,0.0,0.0,Status On Hold
+952,Status Response Received,0.0,0.0,Status Response Received
+953,Status Escalated,2.720943983,0.04534906638333334,Status Escalated
+955,Created.,3.239014892,0.05398358153333334,Created.
+955,Status In Progress,0.0,0.0,Status In Progress
+955,Status Response Received,0.0,0.0,Status Response Received
+956,Status Response Received,0.0,0.0,Status Response Received
+957,Status Escalated,124.0183237,2.0669720616666667,Status Escalated
+957,Status In Progress,0.0,0.0,Status In Progress
+957,Status Response Received,0.0,0.0,Status Response Received
+958,Status Escalated,2.741181695,0.04568636158333333,Status Escalated
+958,Status Waiting for Customer,0.812069196,0.013534486600000001,Status Waiting for Customer
+959,Status Escalated,2.473878937,0.04123131561666667,Status Escalated
+959,Status In Progress,0.0,0.0,Status In Progress
+959,Status Working,0.794543957,0.013242399283333334,Status Working
+960,Status In Progress,0.0,0.0,Status In Progress
+960,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+960,Status Working,0.0,0.0,Status Working
+962,Status Escalated,2.757787299,0.04596312165,Status Escalated
+962,Status In Progress,0.0,0.0,Status In Progress
+962,Status On Hold,0.0,0.0,Status On Hold
+963,Status Escalated,0.0,0.0,Status Escalated
+963,Status In Progress,0.0,0.0,Status In Progress
+963,Status Response Received,0.0,0.0,Status Response Received
+964,Status In Progress,0.0,0.0,Status In Progress
+965,Status In Progress,0.0,0.0,Status In Progress
+965,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+966,Status Escalated,0.0,0.0,Status Escalated
+966,Status In Progress,0.0,0.0,Status In Progress
+966,Status Response Received,0.0,0.0,Status Response Received
+967,Status In Progress,8.032631167,0.13387718611666666,Status In Progress
+967,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+967,Status Working,0.0,0.0,Status Working
+968,Status In Progress,0.0,0.0,Status In Progress
+968,Status On Hold,0.0,0.0,Status On Hold
+968,Status Working,0.0,0.0,Status Working
+969,Status Response Received,0.0,0.0,Status Response Received
+969,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+970,Status On Hold,0.0,0.0,Status On Hold
+970,Status Response Received,0.0,0.0,Status Response Received
+971,Status On Hold,0.0,0.0,Status On Hold
+971,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+973,Status Working,0.0,0.0,Status Working
+974,Status In Progress,0.0,0.0,Status In Progress
+974,Status Response Received,0.0,0.0,Status Response Received
+975,Status Escalated,127.0418708,2.1173645133333334,Status Escalated
+975,Status In Progress,0.0,0.0,Status In Progress
+975,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+976,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+976,Status Working,0.709590204,0.011826503399999999,Status Working
+977,Status In Progress,6.971557689,0.11619262815,Status In Progress
+978,Status In Progress,0.0,0.0,Status In Progress
+979,Created.,3.066447783,0.05110746305,Created.
+979,Status In Progress,7.250561894,0.12084269823333332,Status In Progress
+979,Status On Hold,0.0,0.0,Status On Hold
+979,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+980,Status Escalated,113.6980921,1.8949682016666667,Status Escalated
+980,Status Response Received,0.0,0.0,Status Response Received
+981,Status Response Received,0.0,0.0,Status Response Received
+981,Status Waiting for Customer,0.948025982,0.015800433033333332,Status Waiting for Customer
+982,Status In Progress,0.0,0.0,Status In Progress
+982,Status Waiting for Customer,0.809485204,0.013491420066666667,Status Waiting for Customer
+983,Created.,3.434310286,0.05723850476666667,Created.
+983,Status On Hold,0.0,0.0,Status On Hold
+983,Status Working,0.701851025,0.011697517083333333,Status Working
+984,Status Escalated,113.2907805,1.888179675,Status Escalated
+984,Status In Progress,0.0,0.0,Status In Progress
+984,Status Waiting for Customer,0.863510784,0.0143918464,Status Waiting for Customer
+985,Status On Hold,0.0,0.0,Status On Hold
+985,Status Waiting for Customer,0.960233276,0.016003887933333332,Status Waiting for Customer
+986,Status Escalated,222.2715352,3.7045255866666666,Status Escalated
+986,Status In Progress,0.0,0.0,Status In Progress
+986,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+987,Status Escalated,4.851248687,0.08085414478333333,Status Escalated
+987,Status In Progress,0.0,0.0,Status In Progress
+987,Status Response Received,0.0,0.0,Status Response Received
+988,Status In Progress,0.0,0.0,Status In Progress
+988,Status On Hold,0.0,0.0,Status On Hold
+988,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+988,Status Working,0.0,0.0,Status Working
+989,Status Escalated,114.8075829,1.913459715,Status Escalated
+989,Status Response Received,0.0,0.0,Status Response Received
+989,Status Waiting for Customer,0.820988073,0.01368313455,Status Waiting for Customer
+990,Status Escalated,130.057434488,2.1676239081333337,Status Escalated
+990,Status Response Received,0.0,0.0,Status Response Received
+990,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+990,Status Working,0.670696,0.011178266666666666,Status Working
+991,Created.,2.921412812,0.04869021353333333,Created.
+991,Status Escalated,121.3551199,2.022585331666667,Status Escalated
+991,Status In Progress,7.622833307,0.12704722178333333,Status In Progress
+991,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+992,Status Escalated,2.610319578,0.0435053263,Status Escalated
+992,Status In Progress,7.26364236,0.121060706,Status In Progress
+992,Status Working,0.0,0.0,Status Working
+993,Status Response Received,0.0,0.0,Status Response Received
+994,Status Waiting for Customer,0.815642767,0.013594046116666668,Status Waiting for Customer
+995,Status Escalated,241.418657,4.023644283333334,Status Escalated
+996,Status Escalated,118.849123061,1.9808187176833334,Status Escalated
+997,Status Working,0.0,0.0,Status Working
+998,Status On Hold,0.0,0.0,Status On Hold
+998,Status Response Received,0.0,0.0,Status Response Received
+998,Status Working,0.0,0.0,Status Working
+999,Status Waiting for Customer,0.815053572,0.013584226199999999,Status Waiting for Customer
+1000,Status In Progress,0.0,0.0,Status In Progress
+1001,Status Escalated,2.334313745,0.03890522908333334,Status Escalated
+1001,Status In Progress,0.0,0.0,Status In Progress
+1003,Status Escalated,110.9996885,1.8499948083333335,Status Escalated
+1004,Created.,3.433269412,0.057221156866666664,Created.
+1004,Status In Progress,0.0,0.0,Status In Progress
+1005,Status Response Received,0.0,0.0,Status Response Received
+1007,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1008,Created.,6.220730754,0.1036788459,Created.
+1008,Status Response Received,0.0,0.0,Status Response Received
+1009,Status On Hold,0.0,0.0,Status On Hold
+1009,Status Response Received,0.0,0.0,Status Response Received
+1009,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1010,Status In Progress,7.094502758,0.11824171263333333,Status In Progress
+1010,Status Response Received,0.0,0.0,Status Response Received
+1011,Status In Progress,0.0,0.0,Status In Progress
+1011,Status Working,0.0,0.0,Status Working
+1012,Status In Progress,0.0,0.0,Status In Progress
+1012,Status Working,0.0,0.0,Status Working
+1013,Created.,2.875041352,0.04791735586666667,Created.
+1013,Status Escalated,225.7163793,3.761939655,Status Escalated
+1013,Status In Progress,0.0,0.0,Status In Progress
+1013,Status Working,0.73391483,0.012231913833333333,Status Working
+1014,Created.,3.271926158,0.05453210263333333,Created.
+1014,Status Escalated,0.0,0.0,Status Escalated
+1014,Status Response Received,0.0,0.0,Status Response Received
+1014,Status Working,0.694409896,0.011573498266666668,Status Working
+1015,Status Escalated,0.0,0.0,Status Escalated
+1015,Status Response Received,0.0,0.0,Status Response Received
+1015,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1016,Status Escalated,0.0,0.0,Status Escalated
+1016,Status Response Received,0.0,0.0,Status Response Received
+1017,Created.,3.19063516,0.05317725266666666,Created.
+1017,Status In Progress,7.904430863,0.13174051438333334,Status In Progress
+1017,Status On Hold,0.0,0.0,Status On Hold
+1018,Status Escalated,0.0,0.0,Status Escalated
+1018,Status On Hold,0.0,0.0,Status On Hold
+1018,Status Response Received,0.0,0.0,Status Response Received
+1018,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1019,Status Response Received,0.0,0.0,Status Response Received
+1020,Status Response Received,0.0,0.0,Status Response Received
+1021,Created.,3.023324798,0.050388746633333335,Created.
+1021,Status Response Received,0.0,0.0,Status Response Received
+1021,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1022,Status Response Received,0.0,0.0,Status Response Received
+1022,Status Waiting for Customer,0.964445518,0.016074091966666666,Status Waiting for Customer
+1023,Status On Hold,0.0,0.0,Status On Hold
+1023,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1024,Status Escalated,116.5740419,1.9429006983333332,Status Escalated
+1024,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1025,Status Escalated,2.272965431,0.03788275718333333,Status Escalated
+1025,Status Response Received,0.0,0.0,Status Response Received
+1026,Status Response Received,0.0,0.0,Status Response Received
+1026,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1027,Status In Progress,8.011176433,0.13351960721666664,Status In Progress
+1027,Status On Hold,0.0,0.0,Status On Hold
+1027,Status Response Received,0.0,0.0,Status Response Received
+1027,Status Waiting for Customer,0.881454641,0.014690910683333334,Status Waiting for Customer
+1028,Created.,2.882996101,0.04804993501666666,Created.
+1028,Status Response Received,0.0,0.0,Status Response Received
+1029,Status Escalated,116.8130845,1.9468847416666668,Status Escalated
+1029,Status On Hold,0.0,0.0,Status On Hold
+1029,Status Response Received,0.0,0.0,Status Response Received
+1029,Status Working,0.0,0.0,Status Working
+1030,Status Waiting for Customer,0.85647819,0.0142746365,Status Waiting for Customer
+1030,Status Working,0.0,0.0,Status Working
+1031,Status In Progress,0.0,0.0,Status In Progress
+1032,Status Escalated,224.0865189,3.734775315,Status Escalated
+1032,Status In Progress,6.758574737,0.11264291228333333,Status In Progress
+1032,Status Response Received,0.0,0.0,Status Response Received
+1033,Status Response Received,0.0,0.0,Status Response Received
+1034,Created.,3.413107726,0.05688512876666666,Created.
+1034,Status In Progress,0.0,0.0,Status In Progress
+1034,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1034,Status Working,0.778912977,0.012981882949999999,Status Working
+1035,Status Escalated,116.7616516,1.9460275266666665,Status Escalated
+1035,Status In Progress,0.0,0.0,Status In Progress
+1035,Status Working,0.0,0.0,Status Working
+1036,Status In Progress,0.0,0.0,Status In Progress
+1037,Status Escalated,114.5600095,1.9093334916666669,Status Escalated
+1038,Status In Progress,7.470422236,0.12450703726666666,Status In Progress
+1038,Status Response Received,0.0,0.0,Status Response Received
+1039,Created.,3.040700882,0.050678348033333334,Created.
+1040,Status Response Received,0.0,0.0,Status Response Received
+1040,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1041,Status Escalated,0.0,0.0,Status Escalated
+1041,Status In Progress,0.0,0.0,Status In Progress
+1041,Status On Hold,0.0,0.0,Status On Hold
+1042,Status Response Received,0.0,0.0,Status Response Received
+1042,Status Working,0.701865589,0.011697759816666665,Status Working
+1043,Status Working,0.0,0.0,Status Working
+1044,Status Escalated,121.8126223,2.0302103716666666,Status Escalated
+1044,Status Response Received,0.0,0.0,Status Response Received
+1045,Status Escalated,2.489145124,0.04148575206666667,Status Escalated
+1045,Status On Hold,0.0,0.0,Status On Hold
+1046,Status Escalated,1.753777723,0.029229628716666668,Status Escalated
+1046,Status On Hold,1.125671466,0.0187611911,Status On Hold
+1046,Status Working,0.516217617,0.00860362695,Status Working
+1047,Status Escalated,112.1712096,1.86952016,Status Escalated
+1047,Status In Progress,8.199165992,0.13665276653333333,Status In Progress
+1047,Status On Hold,0.0,0.0,Status On Hold
+1047,Status Response Received,0.0,0.0,Status Response Received
+1047,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1047,Status Working,0.730325305,0.012172088416666667,Status Working
+1048,Created.,0.0,0.0,Created.
+1048,Status In Progress,0.556097365,0.009268289416666665,Status In Progress
+1048,Status Waiting for Customer,2.9649839190000002,0.049416398650000005,Status Waiting for Customer
+1049,Created.,2.995614388,0.049926906466666664,Created.
+1049,Status Escalated,1.572678782,0.026211313033333336,Status Escalated
+1049,Status In Progress,5.142107659,0.08570179431666666,Status In Progress
+1049,Status On Hold,0.0,0.0,Status On Hold
+1049,Status Response Received,1.361852774,0.02269754623333333,Status Response Received
+1049,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1050,Created.,2.598491271,0.04330818785,Created.
+1050,Status Escalated,0.0,0.0,Status Escalated
+1050,Status In Progress,8.370595634,0.13950992723333336,Status In Progress
+1050,Status Response Received,1.316685754,0.021944762566666668,Status Response Received
+1050,Status Waiting for Customer,0.966435001,0.016107250016666668,Status Waiting for Customer
+1050,Status Working,0.500644641,0.00834407735,Status Working
+1051,Status Escalated,3.349218702,0.0558203117,Status Escalated
+1051,Status In Progress,6.787216677,0.11312027795,Status In Progress
+1051,Status Response Received,0.0,0.0,Status Response Received
+1051,Status Waiting for Customer,0.851553006,0.0141925501,Status Waiting for Customer
+1051,Status Working,0.731542298,0.012192371633333334,Status Working
+1052,Created.,4.275916574,0.07126527623333333,Created.
+1052,Status Escalated,0.0,0.0,Status Escalated
+1052,Status In Progress,0.0,0.0,Status In Progress
+1052,Status On Hold,0.0,0.0,Status On Hold
+1052,Status Response Received,0.0,0.0,Status Response Received
+1052,Status Working,0.567508421,0.009458473683333333,Status Working
+1053,Status Escalated,1.590126421,0.026502107016666665,Status Escalated
+1053,Status In Progress,0.0,0.0,Status In Progress
+1053,Status On Hold,3.2756599829999997,0.05459433304999999,Status On Hold
+1053,Status Response Received,1.232490891,0.02054151485,Status Response Received
+1053,Status Waiting for Customer,0.859109232,0.0143184872,Status Waiting for Customer
+1053,Status Working,0.490419958,0.008173665966666667,Status Working
+1054,Created.,0.0,0.0,Created.
+1054,Status Escalated,1.70864674,0.028477445666666667,Status Escalated
+1054,Status On Hold,0.0,0.0,Status On Hold
+1054,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1054,Status Working,0.0,0.0,Status Working
+1055,Created.,6.256532255,0.10427553758333333,Created.
+1055,Status Escalated,132.357960902,2.2059660150333333,Status Escalated
+1055,Status In Progress,0.544615229,0.009076920483333334,Status In Progress
+1055,Status On Hold,0.0,0.0,Status On Hold
+1055,Status Response Received,0.0,0.0,Status Response Received
+1055,Status Waiting for Customer,1.469682244,0.024494704066666664,Status Waiting for Customer
+1055,Status Working,0.0,0.0,Status Working
+1056,Created.,1.390224141,0.02317040235,Created.
+1056,Status In Progress,7.553235066,0.1258872511,Status In Progress
+1056,Status On Hold,3.3920456000000003,0.05653409333333334,Status On Hold
+1056,Status Response Received,0.0,0.0,Status Response Received
+1056,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1057,Created.,0.0,0.0,Created.
+1057,Status Escalated,4.72600404,0.078766734,Status Escalated
+1057,Status In Progress,7.044697555,0.11741162591666666,Status In Progress
+1057,Status Response Received,1.214562984,0.020242716400000003,Status Response Received
+1057,Status Waiting for Customer,1.522258482,0.0253709747,Status Waiting for Customer
+1057,Status Working,0.790535787,0.01317559645,Status Working
+1058,Created.,1.458064525,0.024301075416666665,Created.
+1058,Status In Progress,14.232173439,0.23720289065,Status In Progress
+1058,Status On Hold,1.37515601,0.022919266833333334,Status On Hold
+1058,Status Response Received,0.409665723,0.00682776205,Status Response Received
+1058,Status Working,1.6996586040000001,0.0283276434,Status Working
+1059,Created.,2.56646478,0.042774413,Created.
+1059,Status Escalated,2.61585989,0.043597664833333334,Status Escalated
+1059,Status In Progress,16.984802583,0.28308004305,Status In Progress
+1059,Status On Hold,1.150170679,0.019169511316666665,Status On Hold
+1059,Status Response Received,48.904023532,0.8150670588666666,Status Response Received
+1059,Status Waiting for Customer,12.276026842,0.20460044736666666,Status Waiting for Customer
+1059,Status Working,13.601098111999999,0.2266849685333333,Status Working
+1060,Created.,0.500415322,0.008340255366666667,Created.
+1060,Status Escalated,5.608210834,0.09347018056666667,Status Escalated
+1060,Status In Progress,1.914188003,0.03190313338333333,Status In Progress
+1060,Status On Hold,6.3088691279999995,0.10514781879999999,Status On Hold
+1060,Status Response Received,24.34740006,0.40579000099999996,Status Response Received
+1060,Status Waiting for Customer,9.159993266,0.15266655443333335,Status Waiting for Customer
+1060,Status Working,0.559253415,0.00932089025,Status Working
+1061,Created.,0.060659198,0.0010109866333333332,Created.
+1061,Status Escalated,1.196172429,0.01993620715,Status Escalated
+1061,Status In Progress,8.296019445999999,0.13826699076666665,Status In Progress
+1061,Status On Hold,0.0,0.0,Status On Hold
+1061,Status Response Received,13.6031506,0.22671917666666666,Status Response Received
+1061,Status Waiting for Customer,13.891408209,0.23152347015,Status Waiting for Customer
+1061,Status Working,3.649694636,0.06082824393333333,Status Working
+1062,Created.,2.654918035,0.04424863391666667,Created.
+1062,Status Escalated,10.129026354999999,0.16881710591666665,Status Escalated
+1062,Status In Progress,2.842255338,0.0473709223,Status In Progress
+1062,Status On Hold,7.293118523,0.12155197538333334,Status On Hold
+1062,Status Response Received,15.300181513,0.2550030252166667,Status Response Received
+1062,Status Waiting for Customer,27.063793563,0.45106322605,Status Waiting for Customer
+1062,Status Working,18.115189250999997,0.30191982084999996,Status Working
+1063,Created.,3.6116896,0.060194826666666666,Created.
+1063,Status Escalated,1.464130435,0.024402173916666665,Status Escalated
+1063,Status In Progress,13.08007924,0.21800132066666666,Status In Progress
+1063,Status On Hold,0.528635404,0.008810590066666667,Status On Hold
+1063,Status Response Received,5.775078098,0.09625130163333333,Status Response Received
+1063,Status Waiting for Customer,15.961847767999998,0.2660307961333333,Status Waiting for Customer
+1063,Status Working,2.685897571,0.04476495951666667,Status Working
+1064,Created.,24.543732178,0.4090622029666667,Created.
+1064,Status Escalated,3.231726653,0.053862110883333335,Status Escalated
+1064,Status In Progress,2.953833096,0.0492305516,Status In Progress
+1064,Status On Hold,1.690349809,0.028172496816666667,Status On Hold
+1064,Status Response Received,13.842395717,0.23070659528333334,Status Response Received
+1064,Status Waiting for Customer,20.472380256,0.3412063376,Status Waiting for Customer
+1064,Status Working,13.17221693,0.21953694883333333,Status Working
+1065,Created.,56.359290011000006,0.9393215001833334,Created.
+1065,Status Escalated,9.618818097000002,0.16031363495000003,Status Escalated
+1065,Status In Progress,4.336816337,0.07228027228333334,Status In Progress
+1065,Status On Hold,0.432934263,0.007215571049999999,Status On Hold
+1065,Status Response Received,3.51801387,0.0586335645,Status Response Received
+1065,Status Waiting for Customer,26.089638652999998,0.4348273108833333,Status Waiting for Customer
+1065,Status Working,0.517871659,0.008631194316666667,Status Working
+1066,Created.,25.579431332000002,0.42632385553333335,Created.
+1066,Status Escalated,4.884189241,0.08140315401666666,Status Escalated
+1066,Status In Progress,3.080162979,0.05133604965,Status In Progress
+1066,Status On Hold,2.649410509,0.04415684181666667,Status On Hold
+1066,Status Response Received,25.117910361,0.41863183935,Status Response Received
+1066,Status Waiting for Customer,11.572300031000001,0.19287166718333335,Status Waiting for Customer
+1066,Status Working,0.0,0.0,Status Working
+1067,Created.,7.813254727,0.13022091211666667,Created.
+1067,Status Escalated,12.554269428000001,0.20923782380000003,Status Escalated
+1067,Status In Progress,26.978233749999998,0.44963722916666665,Status In Progress
+1067,Status On Hold,1.8304252989999998,0.030507088316666663,Status On Hold
+1067,Status Response Received,19.581756527,0.32636260878333334,Status Response Received
+1067,Status Waiting for Customer,18.267381639,0.30445636065,Status Waiting for Customer
+1067,Status Working,12.414195512,0.20690325853333333,Status Working
+1068,Created.,34.284908135,0.5714151355833333,Created.
+1068,Status Escalated,153.358901353,2.5559816892166665,Status Escalated
+1068,Status In Progress,29.771025705,0.49618376175,Status In Progress
+1068,Status On Hold,8.714285504,0.14523809173333332,Status On Hold
+1068,Status Response Received,17.011495378,0.28352492296666665,Status Response Received
+1068,Status Waiting for Customer,19.207913301,0.32013188835,Status Waiting for Customer
+1068,Status Working,0.523643051,0.008727384183333332,Status Working
+1069,Created.,6.272560018,0.10454266696666667,Created.
+1069,Status Escalated,48.389656822,0.8064942803666667,Status Escalated
+1069,Status In Progress,14.496021234999999,0.24160035391666665,Status In Progress
+1069,Status On Hold,9.89266401,0.1648777335,Status On Hold
+1069,Status Response Received,35.849010924,0.5974835154,Status Response Received
+1069,Status Waiting for Customer,39.557626354,0.6592937725666667,Status Waiting for Customer
+1069,Status Working,13.30675655,0.22177927583333332,Status Working
+1070,Created.,3.769339852,0.06282233086666666,Created.
+1070,Status Escalated,31.246855514,0.5207809252333333,Status Escalated
+1070,Status In Progress,19.498757417,0.32497929028333333,Status In Progress
+1070,Status On Hold,0.0,0.0,Status On Hold
+1070,Status Response Received,90.305777333,1.5050962888833332,Status Response Received
+1070,Status Waiting for Customer,23.791004311000002,0.3965167385166667,Status Waiting for Customer
+1070,Status Working,1.041740237,0.01736233728333333,Status Working
+1071,Created.,14.081467142000001,0.23469111903333334,Created.
+1071,Status Escalated,16.054111148,0.26756851913333335,Status Escalated
+1071,Status In Progress,16.279696512999998,0.27132827521666664,Status In Progress
+1071,Status On Hold,7.920262252000001,0.13200437086666666,Status On Hold
+1071,Status Response Received,12.342567656,0.20570946093333334,Status Response Received
+1071,Status Waiting for Customer,8.907991859,0.14846653098333332,Status Waiting for Customer
+1071,Status Working,0.8267875929999999,0.013779793216666666,Status Working
+1072,Created.,11.521877006,0.19203128343333334,Created.
+1072,Status Escalated,1.172668606,0.019544476766666666,Status Escalated
+1072,Status In Progress,20.230275437000003,0.33717125728333336,Status In Progress
+1072,Status On Hold,2.351019599,0.03918365998333333,Status On Hold
+1072,Status Response Received,127.841815043,2.1306969173833332,Status Response Received
+1072,Status Waiting for Customer,16.694764362999997,0.2782460727166666,Status Waiting for Customer
+1072,Status Working,0.0,0.0,Status Working
+1073,Created.,10.764156816,0.1794026136,Created.
+1073,Status Escalated,5.822948459,0.09704914098333334,Status Escalated
+1073,Status In Progress,6.465264727,0.10775441211666667,Status In Progress
+1073,Status On Hold,3.4029598539999997,0.05671599756666666,Status On Hold
+1073,Status Response Received,90.722486569,1.5120414428166666,Status Response Received
+1073,Status Waiting for Customer,24.670935619999998,0.4111822603333333,Status Waiting for Customer
+1073,Status Working,0.282930397,0.004715506616666667,Status Working
+1074,Created.,15.78523258,0.26308720966666665,Created.
+1074,Status Escalated,8.405050783,0.14008417971666667,Status Escalated
+1074,Status In Progress,13.522740819,0.22537901365,Status In Progress
+1074,Status On Hold,14.843491740000001,0.24739152900000003,Status On Hold
+1074,Status Response Received,13.33755566,0.22229259433333332,Status Response Received
+1074,Status Waiting for Customer,16.250170322,0.2708361720333333,Status Waiting for Customer
+1074,Status Working,0.5679476569999999,0.009465794283333332,Status Working
+1075,Created.,2.135428702,0.035590478366666664,Created.
+1075,Status Escalated,10.313914544000001,0.17189857573333336,Status Escalated
+1075,Status In Progress,1.578409887,0.026306831450000002,Status In Progress
+1075,Status On Hold,4.070776483,0.06784627471666667,Status On Hold
+1075,Status Response Received,17.182112698,0.2863685449666667,Status Response Received
+1075,Status Waiting for Customer,11.737477539,0.19562462565,Status Waiting for Customer
+1075,Status Working,22.806204703,0.3801034117166667,Status Working
+1076,Created.,8.772659651,0.14621099418333333,Created.
+1076,Status Escalated,22.957924573,0.38263207621666667,Status Escalated
+1076,Status In Progress,13.749864532,0.22916440886666667,Status In Progress
+1076,Status On Hold,18.810755642,0.3135125940333333,Status On Hold
+1076,Status Response Received,21.31649054,0.35527484233333334,Status Response Received
+1076,Status Waiting for Customer,5.4800208480000006,0.09133368080000001,Status Waiting for Customer
+1076,Status Working,2.789370225,0.04648950375,Status Working
+1077,Created.,3.941285154,0.0656880859,Created.
+1077,Status Escalated,12.75920844,0.212653474,Status Escalated
+1077,Status In Progress,30.682413368,0.5113735561333334,Status In Progress
+1077,Status On Hold,3.726060988,0.062101016466666666,Status On Hold
+1077,Status Response Received,9.118660445,0.15197767408333332,Status Response Received
+1077,Status Waiting for Customer,6.396300564,0.10660500939999999,Status Waiting for Customer
+1077,Status Working,0.472886016,0.0078814336,Status Working
+1078,Created.,45.670263573,0.76117105955,Created.
+1078,Status Escalated,5.266552375,0.08777587291666666,Status Escalated
+1078,Status In Progress,5.702039705,0.09503399508333334,Status In Progress
+1078,Status On Hold,13.618018501,0.22696697501666666,Status On Hold
+1078,Status Response Received,31.411031764999997,0.5235171960833332,Status Response Received
+1078,Status Waiting for Customer,1.624904824,0.027081747066666665,Status Waiting for Customer
+1078,Status Working,2.652578868,0.0442096478,Status Working
+1079,Created.,31.132611097999998,0.5188768516333333,Created.
+1079,Status Escalated,5.329259648999999,0.08882099414999998,Status Escalated
+1079,Status In Progress,11.918042098,0.19863403496666668,Status In Progress
+1079,Status On Hold,13.765779496,0.22942965826666667,Status On Hold
+1079,Status Response Received,0.0,0.0,Status Response Received
+1079,Status Waiting for Customer,10.95621666,0.18260361100000003,Status Waiting for Customer
+1079,Status Working,0.239443134,0.0039907189,Status Working
+1080,Created.,0.0,0.0,Created.
+1080,Status Escalated,4.652069877,0.07753449794999999,Status Escalated
+1080,Status In Progress,5.973345128,0.09955575213333333,Status In Progress
+1080,Status On Hold,13.82167179,0.2303611965,Status On Hold
+1080,Status Response Received,24.116702533,0.4019450422166667,Status Response Received
+1080,Status Waiting for Customer,20.532207398,0.34220345663333335,Status Waiting for Customer
+1080,Status Working,3.077872665,0.051297877750000005,Status Working
+1081,Created.,1.19430598,0.019905099666666665,Created.
+1081,Status Escalated,14.117075532,0.2352845922,Status Escalated
+1081,Status In Progress,7.671384592,0.12785640986666666,Status In Progress
+1081,Status On Hold,4.195465752,0.0699244292,Status On Hold
+1081,Status Response Received,2.4249735980000002,0.04041622663333334,Status Response Received
+1081,Status Waiting for Customer,24.481486253,0.40802477088333333,Status Waiting for Customer
+1081,Status Working,1.073598583,0.01789330971666667,Status Working
+1082,Created.,24.35233357,0.4058722261666666,Created.
+1082,Status Escalated,5.888828608999999,0.09814714348333332,Status Escalated
+1082,Status In Progress,23.236512285,0.38727520475,Status In Progress
+1082,Status On Hold,20.249770844,0.3374961807333333,Status On Hold
+1082,Status Response Received,33.578872264,0.5596478710666666,Status Response Received
+1082,Status Waiting for Customer,9.899718118000001,0.16499530196666667,Status Waiting for Customer
+1082,Status Working,31.488092811,0.52480154685,Status Working
+1083,Created.,16.062634081,0.26771056801666665,Created.
+1083,Status Escalated,127.813473337,2.1302245556166666,Status Escalated
+1083,Status In Progress,7.491567696000001,0.12485946160000001,Status In Progress
+1083,Status On Hold,6.551245616,0.10918742693333333,Status On Hold
+1083,Status Response Received,15.95367796,0.2658946326666667,Status Response Received
+1083,Status Waiting for Customer,9.603258154,0.16005430256666667,Status Waiting for Customer
+1083,Status Working,0.992841884,0.016547364733333333,Status Working
+1084,Created.,0.432701244,0.0072116874,Created.
+1084,Status Escalated,132.67540145700002,2.2112566909500004,Status Escalated
+1084,Status In Progress,18.29828423,0.3049714038333333,Status In Progress
+1084,Status On Hold,5.612654997,0.09354424995,Status On Hold
+1084,Status Response Received,0.482851886,0.008047531433333333,Status Response Received
+1084,Status Waiting for Customer,3.331940671,0.055532344516666665,Status Waiting for Customer
+1084,Status Working,4.774898756,0.07958164593333333,Status Working
+1085,Created.,3.413559709,0.05689266181666666,Created.
+1085,Status Escalated,6.678510256,0.11130850426666666,Status Escalated
+1085,Status In Progress,5.642116464,0.0940352744,Status In Progress
+1085,Status On Hold,3.688107773,0.06146846288333333,Status On Hold
+1085,Status Response Received,20.750371459,0.34583952431666665,Status Response Received
+1085,Status Waiting for Customer,17.326578724,0.2887763120666667,Status Waiting for Customer
+1085,Status Working,2.8112630980000004,0.046854384966666676,Status Working
+1086,Created.,26.453960963000004,0.4408993493833334,Created.
+1086,Status Escalated,4.11243867,0.06854064450000001,Status Escalated
+1086,Status In Progress,3.4122136739999998,0.056870227899999994,Status In Progress
+1086,Status On Hold,5.180592926999999,0.08634321544999998,Status On Hold
+1086,Status Response Received,1.9581217899999999,0.03263536316666667,Status Response Received
+1086,Status Waiting for Customer,4.897501816,0.08162503026666666,Status Waiting for Customer
+1086,Status Working,1.1982101699999999,0.0199701695,Status Working
+1087,Created.,24.060988275,0.40101647125,Created.
+1087,Status Escalated,5.0050081120000005,0.08341680186666668,Status Escalated
+1087,Status In Progress,2.853963882,0.0475660647,Status In Progress
+1087,Status On Hold,13.829736732,0.2304956122,Status On Hold
+1087,Status Response Received,0.925587175,0.015426452916666666,Status Response Received
+1087,Status Waiting for Customer,11.734409589,0.19557349315,Status Waiting for Customer
+1087,Status Working,9.196976388,0.1532829398,Status Working
+1088,Created.,23.252654751,0.38754424585,Created.
+1088,Status Escalated,177.071804233,2.9511967372166668,Status Escalated
+1088,Status In Progress,19.811335678,0.33018892796666666,Status In Progress
+1088,Status On Hold,13.284256307,0.22140427178333333,Status On Hold
+1088,Status Response Received,0.0,0.0,Status Response Received
+1088,Status Waiting for Customer,3.6197554409999997,0.06032925734999999,Status Waiting for Customer
+1088,Status Working,0.67934959,0.011322493166666666,Status Working
+1089,Created.,4.087261492,0.06812102486666666,Created.
+1089,Status Escalated,134.130528976,2.2355088162666665,Status Escalated
+1089,Status In Progress,9.304379788999999,0.1550729964833333,Status In Progress
+1089,Status On Hold,5.857408866999999,0.09762348111666666,Status On Hold
+1089,Status Response Received,16.117783707,0.26862972845,Status Response Received
+1089,Status Waiting for Customer,26.174404905,0.43624008175,Status Waiting for Customer
+1089,Status Working,0.055214867,0.0009202477833333333,Status Working
+1090,Created.,31.007415375999997,0.5167902562666666,Created.
+1090,Status Escalated,2.462571908,0.041042865133333335,Status Escalated
+1090,Status In Progress,7.8710801990000006,0.13118466998333334,Status In Progress
+1090,Status On Hold,4.837008366,0.08061680610000001,Status On Hold
+1090,Status Response Received,106.91242503000001,1.7818737505000002,Status Response Received
+1090,Status Waiting for Customer,7.408209191,0.12347015318333333,Status Waiting for Customer
+1090,Status Working,4.553471898,0.07589119829999999,Status Working
+1091,Created.,28.759970764,0.47933284606666665,Created.
+1091,Status Escalated,52.839039508,0.8806506584666667,Status Escalated
+1091,Status In Progress,21.5359477,0.3589324616666667,Status In Progress
+1091,Status On Hold,5.163276177,0.08605460295,Status On Hold
+1091,Status Response Received,24.753289016,0.41255481693333335,Status Response Received
+1091,Status Waiting for Customer,7.958783603,0.13264639338333334,Status Waiting for Customer
+1091,Status Working,16.68226616,0.27803776933333335,Status Working
+1092,Created.,48.249589504,0.8041598250666666,Created.
+1092,Status Escalated,0.991976655,0.01653294425,Status Escalated
+1092,Status In Progress,20.185256289,0.33642093815,Status In Progress
+1092,Status On Hold,8.107848548,0.13513080913333333,Status On Hold
+1092,Status Response Received,1.546951178,0.025782519633333334,Status Response Received
+1092,Status Waiting for Customer,0.804319281,0.01340532135,Status Waiting for Customer
+1092,Status Working,13.82031642,0.230338607,Status Working
+1093,Created.,2.1083268,0.03513878,Created.
+1093,Status Escalated,42.690608582,0.7115101430333334,Status Escalated
+1093,Status In Progress,12.149612298000001,0.20249353830000003,Status In Progress
+1093,Status On Hold,5.280870867,0.08801451445,Status On Hold
+1093,Status Response Received,0.597246343,0.009954105716666667,Status Response Received
+1093,Status Waiting for Customer,14.137895593,0.23563159321666666,Status Waiting for Customer
+1093,Status Working,35.619486045,0.59365810075,Status Working
+1094,Created.,9.676152686,0.16126921143333334,Created.
+1094,Status Escalated,16.139197817,0.2689866302833333,Status Escalated
+1094,Status In Progress,8.61646601,0.14360776683333334,Status In Progress
+1094,Status On Hold,3.312730152,0.0552121692,Status On Hold
+1094,Status Response Received,44.722874024999996,0.74538123375,Status Response Received
+1094,Status Waiting for Customer,17.146715184999998,0.28577858641666665,Status Waiting for Customer
+1094,Status Working,1.977938731,0.03296564551666667,Status Working
+1095,Created.,6.544622392,0.10907703986666667,Created.
+1095,Status Escalated,116.966479081,1.9494413180166668,Status Escalated
+1095,Status In Progress,5.56523126,0.09275385433333333,Status In Progress
+1095,Status On Hold,8.040413119,0.13400688531666666,Status On Hold
+1095,Status Response Received,1.53202789,0.025533798166666666,Status Response Received
+1095,Status Waiting for Customer,20.687959665,0.34479932775,Status Waiting for Customer
+1095,Status Working,15.947530213999999,0.2657921702333333,Status Working
+1096,Created.,1.036970643,0.017282844050000003,Created.
+1096,Status Escalated,13.065435893,0.21775726488333333,Status Escalated
+1096,Status In Progress,19.690317142999998,0.3281719523833333,Status In Progress
+1096,Status On Hold,10.205076620000002,0.17008461033333336,Status On Hold
+1096,Status Response Received,0.259241208,0.0043206868,Status Response Received
+1096,Status Waiting for Customer,32.531974435,0.5421995739166667,Status Waiting for Customer
+1096,Status Working,1.752584341,0.029209739016666667,Status Working
+1097,Created.,4.5916036579999995,0.07652672763333332,Created.
+1097,Status Escalated,8.905766773,0.14842944621666668,Status Escalated
+1097,Status In Progress,12.924525927,0.21540876544999998,Status In Progress
+1097,Status On Hold,7.976519608,0.13294199346666666,Status On Hold
+1097,Status Response Received,0.20309324,0.0033848873333333336,Status Response Received
+1097,Status Waiting for Customer,18.813162665,0.3135527110833333,Status Waiting for Customer
+1097,Status Working,14.695819413999999,0.24493032356666664,Status Working
+1098,Created.,49.515959019,0.82526598365,Created.
+1098,Status Escalated,1.520165557,0.025336092616666663,Status Escalated
+1098,Status In Progress,17.305331111,0.28842218518333335,Status In Progress
+1098,Status On Hold,12.582577202,0.20970962003333332,Status On Hold
+1098,Status Response Received,24.851989179999997,0.41419981966666664,Status Response Received
+1098,Status Waiting for Customer,23.019209227,0.3836534871166667,Status Waiting for Customer
+1098,Status Working,5.115827975,0.08526379958333334,Status Working
+1099,Created.,20.617721644,0.3436286940666667,Created.
+1099,Status Escalated,3.40818083,0.05680301383333333,Status Escalated
+1099,Status In Progress,30.258073334,0.5043012222333333,Status In Progress
+1099,Status On Hold,17.296585328,0.2882764221333333,Status On Hold
+1099,Status Response Received,48.464574589,0.8077429098166667,Status Response Received
+1099,Status Waiting for Customer,3.188480625,0.05314134375,Status Waiting for Customer
+1099,Status Working,27.3279601,0.4554660016666666,Status Working
+1100,Created.,19.348455096000002,0.32247425160000004,Created.
+1100,Status Escalated,18.402287745000002,0.30670479575000004,Status Escalated
+1100,Status In Progress,7.186987472999999,0.11978312455,Status In Progress
+1100,Status On Hold,0.509846779,0.008497446316666666,Status On Hold
+1100,Status Response Received,0.643198849,0.010719980816666667,Status Response Received
+1100,Status Waiting for Customer,12.297738882,0.2049623147,Status Waiting for Customer
+1100,Status Working,1.3807714949999998,0.023012858249999997,Status Working
+1101,Created.,1.565868027,0.02609780045,Created.
+1101,Status Escalated,17.672115578,0.2945352596333333,Status Escalated
+1101,Status In Progress,18.061688381,0.3010281396833333,Status In Progress
+1101,Status On Hold,2.8807459360000003,0.04801243226666667,Status On Hold
+1101,Status Response Received,0.524071747,0.008734529116666667,Status Response Received
+1101,Status Waiting for Customer,14.165166404,0.23608610673333336,Status Waiting for Customer
+1101,Status Working,0.216252625,0.003604210416666667,Status Working
+1102,Created.,7.919776612,0.13199627686666665,Created.
+1102,Status Escalated,21.857287885,0.3642881314166667,Status Escalated
+1102,Status In Progress,12.878489227000001,0.2146414871166667,Status In Progress
+1102,Status On Hold,2.229338535,0.03715564225,Status On Hold
+1102,Status Response Received,31.880845140999998,0.5313474190166666,Status Response Received
+1102,Status Waiting for Customer,9.483065738,0.15805109563333333,Status Waiting for Customer
+1102,Status Working,3.5056921859999997,0.05842820309999999,Status Working
+1103,Created.,24.76334835,0.4127224725,Created.
+1103,Status Escalated,160.70305627300002,2.678384271216667,Status Escalated
+1103,Status In Progress,16.539469632,0.2756578272,Status In Progress
+1103,Status On Hold,5.650170641,0.09416951068333333,Status On Hold
+1103,Status Response Received,0.0,0.0,Status Response Received
+1103,Status Waiting for Customer,7.737335163,0.12895558605,Status Waiting for Customer
+1103,Status Working,27.870717111999998,0.4645119518666666,Status Working
+1104,Created.,22.48113696,0.374685616,Created.
+1104,Status Escalated,138.207092691,2.30345154485,Status Escalated
+1104,Status In Progress,9.072899169,0.15121498614999998,Status In Progress
+1104,Status On Hold,10.693197688,0.17821996146666666,Status On Hold
+1104,Status Response Received,2.050337494,0.034172291566666665,Status Response Received
+1104,Status Waiting for Customer,6.353075229,0.10588458715,Status Waiting for Customer
+1104,Status Working,24.414017912,0.4069002985333333,Status Working
+1105,Created.,8.074428212,0.13457380353333334,Created.
+1105,Status Escalated,8.156977289,0.13594962148333334,Status Escalated
+1105,Status In Progress,2.1650774349999997,0.03608462391666666,Status In Progress
+1105,Status On Hold,4.961291061,0.08268818435,Status On Hold
+1105,Status Response Received,4.128543545,0.06880905908333333,Status Response Received
+1105,Status Waiting for Customer,29.984646889,0.4997441148166667,Status Waiting for Customer
+1105,Status Working,2.552591186,0.04254318643333333,Status Working
+1106,Created.,25.983793812000002,0.43306323020000004,Created.
+1106,Status Escalated,59.538071364,0.9923011893999999,Status Escalated
+1106,Status In Progress,9.063321154,0.15105535256666666,Status In Progress
+1106,Status On Hold,3.4458157320000002,0.057430262200000005,Status On Hold
+1106,Status Response Received,0.0,0.0,Status Response Received
+1106,Status Waiting for Customer,34.695032465,0.5782505410833333,Status Waiting for Customer
+1106,Status Working,9.623256972,0.1603876162,Status Working
+1107,Created.,37.05458672,0.6175764453333333,Created.
+1107,Status Escalated,1.872636161,0.03121060268333333,Status Escalated
+1107,Status In Progress,15.962698060000001,0.2660449676666667,Status In Progress
+1107,Status On Hold,0.984850808,0.016414180133333334,Status On Hold
+1107,Status Response Received,0.983096799,0.01638494665,Status Response Received
+1107,Status Waiting for Customer,11.056303106999998,0.18427171844999995,Status Waiting for Customer
+1107,Status Working,11.070386011999998,0.18450643353333332,Status Working
+1108,Created.,3.793434806,0.06322391343333333,Created.
+1108,Status Escalated,132.972044535,2.2162007422500003,Status Escalated
+1108,Status In Progress,10.78961412,0.17982690199999998,Status In Progress
+1108,Status On Hold,14.081526803,0.23469211338333332,Status On Hold
+1108,Status Response Received,2.604702762,0.0434117127,Status Response Received
+1108,Status Waiting for Customer,14.795043485,0.24658405808333334,Status Waiting for Customer
+1108,Status Working,22.545607925000002,0.37576013208333336,Status Working
+1109,Created.,4.126945751,0.06878242918333334,Created.
+1109,Status Escalated,179.943330421,2.9990555070166667,Status Escalated
+1109,Status In Progress,35.994753341999996,0.5999125556999999,Status In Progress
+1109,Status On Hold,11.583047813,0.19305079688333335,Status On Hold
+1109,Status Response Received,27.113390253,0.45188983754999995,Status Response Received
+1109,Status Waiting for Customer,14.557023977,0.24261706628333332,Status Waiting for Customer
+1109,Status Working,18.146366289,0.30243943815,Status Working
+1110,Created.,44.399503937,0.7399917322833333,Created.
+1110,Status Escalated,116.683210234,1.9447201705666666,Status Escalated
+1110,Status In Progress,23.580598471000002,0.3930099745166667,Status In Progress
+1110,Status On Hold,13.303896742,0.22173161236666666,Status On Hold
+1110,Status Response Received,159.630922445,2.6605153740833334,Status Response Received
+1110,Status Waiting for Customer,33.627657938,0.5604609656333334,Status Waiting for Customer
+1110,Status Working,3.446917708,0.057448628466666665,Status Working
+1111,Created.,0.244899047,0.004081650783333333,Created.
+1111,Status Escalated,19.087616771,0.3181269461833333,Status Escalated
+1111,Status In Progress,1.251393416,0.020856556933333333,Status In Progress
+1111,Status On Hold,3.830656635,0.06384427725,Status On Hold
+1111,Status Response Received,13.386003266000001,0.22310005443333336,Status Response Received
+1111,Status Waiting for Customer,3.741364089,0.062356068150000006,Status Waiting for Customer
+1111,Status Working,4.270845915,0.07118076525,Status Working
+1112,Created.,14.331654611000001,0.23886091018333336,Created.
+1112,Status Escalated,5.249838093,0.08749730155,Status Escalated
+1112,Status In Progress,1.99877794,0.033312965666666666,Status In Progress
+1112,Status On Hold,2.461009598,0.04101682663333333,Status On Hold
+1112,Status Response Received,12.355007748999999,0.20591679581666664,Status Response Received
+1112,Status Waiting for Customer,16.320573745,0.2720095624166667,Status Waiting for Customer
+1112,Status Working,1.179344548,0.019655742466666667,Status Working
+1113,Created.,28.969454453999997,0.4828242409,Created.
+1113,Status Escalated,59.85033207,0.9975055345,Status Escalated
+1113,Status In Progress,9.624482016,0.1604080336,Status In Progress
+1113,Status On Hold,3.417325042,0.056955417366666664,Status On Hold
+1113,Status Response Received,14.25437665,0.23757294416666666,Status Response Received
+1113,Status Waiting for Customer,15.643567022000001,0.26072611703333337,Status Waiting for Customer
+1113,Status Working,0.0,0.0,Status Working
+1114,Created.,0.0,0.0,Created.
+1114,Status Escalated,7.900685405,0.13167809008333334,Status Escalated
+1114,Status In Progress,3.477015399,0.05795025665,Status In Progress
+1114,Status On Hold,11.169121664999999,0.18615202774999998,Status On Hold
+1114,Status Response Received,4.774691786,0.07957819643333333,Status Response Received
+1114,Status Waiting for Customer,4.317191402,0.07195319003333332,Status Waiting for Customer
+1114,Status Working,10.090536969,0.16817561615,Status Working
+1115,Created.,0.806196948,0.0134366158,Created.
+1115,Status Escalated,5.848538665,0.09747564441666667,Status Escalated
+1115,Status In Progress,7.617897447,0.12696495745,Status In Progress
+1115,Status On Hold,7.280727273,0.12134545455,Status On Hold
+1115,Status Response Received,0.289493657,0.004824894283333334,Status Response Received
+1115,Status Waiting for Customer,13.205795393999999,0.22009658989999997,Status Waiting for Customer
+1115,Status Working,16.861804994,0.28103008323333334,Status Working
+1116,Created.,2.754065214,0.045901086900000006,Created.
+1116,Status Escalated,6.7648388619999995,0.11274731436666666,Status Escalated
+1116,Status In Progress,33.011164195999996,0.5501860699333333,Status In Progress
+1116,Status On Hold,12.646574008,0.21077623346666666,Status On Hold
+1116,Status Response Received,16.977476448,0.28295794080000003,Status Response Received
+1116,Status Waiting for Customer,19.078162087,0.31796936811666665,Status Waiting for Customer
+1116,Status Working,3.819409726,0.06365682876666666,Status Working
+1117,Created.,9.958458206,0.16597430343333333,Created.
+1117,Status Escalated,129.467574931,2.1577929155166666,Status Escalated
+1117,Status In Progress,22.135355624,0.3689225937333333,Status In Progress
+1117,Status On Hold,5.2287231499999995,0.08714538583333332,Status On Hold
+1117,Status Response Received,22.397275384,0.3732879230666667,Status Response Received
+1117,Status Waiting for Customer,15.7453017,0.262421695,Status Waiting for Customer
+1117,Status Working,8.921438453999999,0.14869064089999998,Status Working
+1118,Created.,27.542067397000004,0.45903445661666675,Created.
+1118,Status Escalated,25.35193482,0.422532247,Status Escalated
+1118,Status In Progress,22.803686551,0.3800614425166666,Status In Progress
+1118,Status On Hold,2.084405928,0.034740098799999994,Status On Hold
+1118,Status Response Received,9.411740876,0.15686234793333334,Status Response Received
+1118,Status Waiting for Customer,0.956499732,0.0159416622,Status Waiting for Customer
+1118,Status Working,23.829692787000003,0.39716154645000007,Status Working
+1119,Created.,13.709512992,0.2284918832,Created.
+1119,Status Escalated,17.381522061000002,0.28969203435,Status Escalated
+1119,Status In Progress,21.062284621,0.35103807701666667,Status In Progress
+1119,Status On Hold,5.13183909,0.0855306515,Status On Hold
+1119,Status Response Received,98.925652665,1.64876087775,Status Response Received
+1119,Status Waiting for Customer,9.425737531,0.15709562551666664,Status Waiting for Customer
+1119,Status Working,1.022808431,0.017046807183333335,Status Working
+1120,Created.,0.5883872290000001,0.009806453816666668,Created.
+1120,Status Escalated,123.896994693,2.06494991155,Status Escalated
+1120,Status In Progress,3.434294935,0.057238248916666665,Status In Progress
+1120,Status On Hold,7.5283786599999996,0.12547297766666665,Status On Hold
+1120,Status Response Received,16.664730455,0.27774550758333333,Status Response Received
+1120,Status Waiting for Customer,5.023137027,0.08371895045,Status Waiting for Customer
+1120,Status Working,21.781141492,0.36301902486666665,Status Working
+1121,Created.,31.050767618000002,0.5175127936333334,Created.
+1121,Status Escalated,0.558692274,0.0093115379,Status Escalated
+1121,Status In Progress,10.543113445,0.17571855741666667,Status In Progress
+1121,Status On Hold,2.942991308,0.049049855133333334,Status On Hold
+1121,Status Response Received,30.23591311,0.5039318851666666,Status Response Received
+1121,Status Waiting for Customer,10.326910973,0.17211518288333333,Status Waiting for Customer
+1121,Status Working,5.484983069,0.09141638448333333,Status Working
+1122,Created.,16.484681279,0.27474468798333335,Created.
+1122,Status Escalated,130.93040156799998,2.1821733594666664,Status Escalated
+1122,Status In Progress,27.303272824,0.45505454706666665,Status In Progress
+1122,Status On Hold,7.143805273,0.11906342121666666,Status On Hold
+1122,Status Response Received,28.073449937,0.46789083228333334,Status Response Received
+1122,Status Waiting for Customer,18.780165746,0.31300276243333336,Status Waiting for Customer
+1122,Status Working,0.0,0.0,Status Working
+1123,Created.,7.723164552,0.1287194092,Created.
+1123,Status Escalated,124.441807927,2.0740301321166665,Status Escalated
+1123,Status In Progress,30.350088170000003,0.5058348028333334,Status In Progress
+1123,Status On Hold,3.3190223320000003,0.055317038866666675,Status On Hold
+1123,Status Response Received,12.936649036,0.21561081726666667,Status Response Received
+1123,Status Waiting for Customer,30.558139333,0.5093023222166667,Status Waiting for Customer
+1123,Status Working,4.822113319,0.08036855531666666,Status Working
+1124,Created.,16.994128826,0.28323548043333335,Created.
+1124,Status Escalated,0.777987458,0.012966457633333334,Status Escalated
+1124,Status In Progress,13.718183794,0.22863639656666665,Status In Progress
+1124,Status On Hold,12.610943771,0.21018239618333334,Status On Hold
+1124,Status Response Received,2.316960279,0.03861600465,Status Response Received
+1124,Status Waiting for Customer,0.576434619,0.009607243650000001,Status Waiting for Customer
+1124,Status Working,3.6537213559999997,0.060895355933333326,Status Working
+1125,Created.,15.696021864,0.2616003644,Created.
+1125,Status Escalated,8.75672298,0.14594538299999998,Status Escalated
+1125,Status In Progress,10.537485385,0.17562475641666667,Status In Progress
+1125,Status On Hold,6.169764623,0.10282941038333333,Status On Hold
+1125,Status Response Received,15.137030730000001,0.2522838455,Status Response Received
+1125,Status Waiting for Customer,33.429551655,0.5571591942499999,Status Waiting for Customer
+1125,Status Working,2.542845115,0.04238075191666667,Status Working
+1126,Created.,20.283531419,0.3380588569833333,Created.
+1126,Status Escalated,4.379829232,0.07299715386666666,Status Escalated
+1126,Status In Progress,0.675682961,0.011261382683333333,Status In Progress
+1126,Status On Hold,14.112165077,0.23520275128333334,Status On Hold
+1126,Status Response Received,4.100693065,0.06834488441666667,Status Response Received
+1126,Status Waiting for Customer,26.141988276,0.43569980459999996,Status Waiting for Customer
+1126,Status Working,2.5717842969999998,0.042863071616666665,Status Working
+1127,Created.,0.282901631,0.004715027183333333,Created.
+1127,Status Escalated,18.312817284999998,0.30521362141666664,Status Escalated
+1127,Status In Progress,6.584645652,0.1097440942,Status In Progress
+1127,Status On Hold,1.737470378,0.028957839633333333,Status On Hold
+1127,Status Response Received,5.114808605,0.08524681008333333,Status Response Received
+1127,Status Waiting for Customer,0.992369041,0.016539484016666668,Status Waiting for Customer
+1127,Status Working,2.882506074,0.048041767900000004,Status Working
+1128,Created.,19.230761654,0.3205126942333333,Created.
+1128,Status Escalated,3.098844875,0.051647414583333336,Status Escalated
+1128,Status In Progress,5.099554894,0.08499258156666666,Status In Progress
+1128,Status On Hold,6.0397615369999995,0.10066269228333333,Status On Hold
+1128,Status Response Received,0.242271939,0.00403786565,Status Response Received
+1128,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1128,Status Working,10.768428605,0.17947381008333335,Status Working
+1129,Created.,32.806949722,0.5467824953666667,Created.
+1129,Status Escalated,214.064796952,3.5677466158666666,Status Escalated
+1129,Status In Progress,26.817975104000002,0.4469662517333334,Status In Progress
+1129,Status On Hold,5.634929542,0.09391549236666667,Status On Hold
+1129,Status Response Received,6.709943976,0.1118323996,Status Response Received
+1129,Status Waiting for Customer,24.841008888,0.4140168148,Status Waiting for Customer
+1129,Status Working,0.545875636,0.009097927266666667,Status Working
+1130,Created.,7.219107218,0.12031845363333334,Created.
+1130,Status Escalated,48.86603152,0.8144338586666666,Status Escalated
+1130,Status In Progress,14.008510948,0.23347518246666665,Status In Progress
+1130,Status On Hold,15.179294421,0.25298824035,Status On Hold
+1130,Status Response Received,15.896506414000001,0.2649417735666667,Status Response Received
+1130,Status Waiting for Customer,40.624891799,0.6770815299833333,Status Waiting for Customer
+1130,Status Working,0.76954678,0.012825779666666667,Status Working
+1131,Created.,4.590991538,0.07651652563333333,Created.
+1131,Status Escalated,236.58454461,3.9430757435,Status Escalated
+1131,Status In Progress,22.80353,0.3800588333333333,Status In Progress
+1131,Status On Hold,8.613465727,0.14355776211666665,Status On Hold
+1131,Status Response Received,33.294997819,0.5549166303166667,Status Response Received
+1131,Status Waiting for Customer,7.810888262,0.13018147103333333,Status Waiting for Customer
+1131,Status Working,16.078210925,0.26797018208333334,Status Working
+1132,Created.,2.159436207,0.035990603450000005,Created.
+1132,Status Escalated,4.1967241909999995,0.06994540318333332,Status Escalated
+1132,Status In Progress,12.868346047,0.21447243411666667,Status In Progress
+1132,Status On Hold,6.558958939,0.10931598231666667,Status On Hold
+1132,Status Response Received,16.565890911,0.27609818185,Status Response Received
+1132,Status Waiting for Customer,10.864017706,0.18106696176666667,Status Waiting for Customer
+1132,Status Working,2.175302341,0.03625503901666667,Status Working
+1133,Created.,3.6857007509999997,0.061428345849999996,Created.
+1133,Status Escalated,4.646128683,0.07743547804999999,Status Escalated
+1133,Status In Progress,5.450511263,0.09084185438333334,Status In Progress
+1133,Status On Hold,5.547132264,0.0924522044,Status On Hold
+1133,Status Response Received,24.96363795,0.41606063249999997,Status Response Received
+1133,Status Waiting for Customer,13.070798935,0.21784664891666666,Status Waiting for Customer
+1133,Status Working,18.85754035,0.31429233916666666,Status Working
+1134,Created.,4.22793393,0.0704655655,Created.
+1134,Status Escalated,18.323079735,0.30538466225,Status Escalated
+1134,Status In Progress,1.4515628779999998,0.02419271463333333,Status In Progress
+1134,Status On Hold,3.3947886560000002,0.056579810933333335,Status On Hold
+1134,Status Response Received,36.941958121,0.6156993020166667,Status Response Received
+1134,Status Waiting for Customer,42.719022874000004,0.7119837145666668,Status Waiting for Customer
+1134,Status Working,0.440505462,0.007341757700000001,Status Working
+1135,Created.,13.094370699,0.21823951165000002,Created.
+1135,Status Escalated,51.220206165,0.85367010275,Status Escalated
+1135,Status In Progress,6.695299378,0.11158832296666667,Status In Progress
+1135,Status On Hold,0.531718539,0.00886197565,Status On Hold
+1135,Status Response Received,5.313060206,0.08855100343333334,Status Response Received
+1135,Status Waiting for Customer,26.762326244999997,0.4460387707499999,Status Waiting for Customer
+1135,Status Working,1.038434053,0.01730723421666667,Status Working
+1136,Created.,21.637721996,0.36062869993333335,Created.
+1136,Status Escalated,19.766383214,0.32943972023333334,Status Escalated
+1136,Status In Progress,8.193128019,0.13655213365,Status In Progress
+1136,Status On Hold,17.141354247000002,0.28568923745,Status On Hold
+1136,Status Response Received,9.077042171,0.15128403618333333,Status Response Received
+1136,Status Waiting for Customer,41.429037001,0.6904839500166666,Status Waiting for Customer
+1136,Status Working,1.017941446,0.016965690766666666,Status Working
+1137,Created.,4.7954936020000005,0.07992489336666668,Created.
+1137,Status Escalated,8.5790644,0.14298440666666667,Status Escalated
+1137,Status In Progress,6.277962265999999,0.10463270443333332,Status In Progress
+1137,Status On Hold,4.808193278,0.08013655463333333,Status On Hold
+1137,Status Response Received,23.83529181,0.3972548635,Status Response Received
+1137,Status Waiting for Customer,48.663916062,0.8110652677,Status Waiting for Customer
+1137,Status Working,7.535342534,0.12558904223333334,Status Working
+1138,Created.,41.293627789,0.6882271298166667,Created.
+1138,Status Escalated,28.397425253999998,0.47329042089999995,Status Escalated
+1138,Status In Progress,16.436752788,0.2739458798,Status In Progress
+1138,Status On Hold,18.529178133,0.30881963554999997,Status On Hold
+1138,Status Response Received,8.345419176,0.1390903196,Status Response Received
+1138,Status Waiting for Customer,6.504372521,0.10840620868333332,Status Waiting for Customer
+1138,Status Working,2.73689716,0.04561495266666667,Status Working
+1139,Created.,6.0110631009999995,0.10018438501666665,Created.
+1139,Status Escalated,15.697358676,0.2616226446,Status Escalated
+1139,Status In Progress,8.874816542,0.14791360903333334,Status In Progress
+1139,Status On Hold,6.760297077,0.11267161795,Status On Hold
+1139,Status Response Received,13.27633623,0.2212722705,Status Response Received
+1139,Status Waiting for Customer,44.107442838000004,0.7351240473,Status Waiting for Customer
+1139,Status Working,13.746402605,0.22910671008333333,Status Working
+1140,Created.,14.303168414,0.23838614023333332,Created.
+1140,Status Escalated,57.612709791,0.96021182985,Status Escalated
+1140,Status In Progress,16.402866025999998,0.2733811004333333,Status In Progress
+1140,Status On Hold,3.274347285,0.054572454750000006,Status On Hold
+1140,Status Response Received,1.0065030959999999,0.016775051599999997,Status Response Received
+1140,Status Waiting for Customer,20.054882462000002,0.3342480410333334,Status Waiting for Customer
+1140,Status Working,2.075589114,0.0345931519,Status Working
+1141,Created.,18.292165,0.30486941666666667,Created.
+1141,Status Escalated,19.864381793,0.3310730298833333,Status Escalated
+1141,Status In Progress,19.422720146,0.3237120024333333,Status In Progress
+1141,Status On Hold,17.602680841999998,0.2933780140333333,Status On Hold
+1141,Status Response Received,13.103482298,0.21839137163333333,Status Response Received
+1141,Status Waiting for Customer,3.826124656,0.06376874426666666,Status Waiting for Customer
+1141,Status Working,10.919618174,0.18199363623333334,Status Working
+1142,Status Escalated,4.60030041,0.0766716735,Status Escalated
+1142,Status In Progress,2.534944207,0.04224907011666667,Status In Progress
+1142,Status On Hold,9.387819109,0.1564636518166667,Status On Hold
+1142,Status Response Received,7.177948209,0.11963247015,Status Response Received
+1142,Status Waiting for Customer,24.407060848,0.4067843474666667,Status Waiting for Customer
+1142,Status Working,0.060374734,0.0010062455666666667,Status Working
+1143,Created.,14.698269747000001,0.24497116245000003,Created.
+1143,Status Escalated,5.7140397599999995,0.09523399599999999,Status Escalated
+1143,Status In Progress,2.786920383,0.04644867305,Status In Progress
+1143,Status On Hold,3.807714502,0.06346190836666667,Status On Hold
+1143,Status Response Received,7.0523270049999995,0.11753878341666665,Status Response Received
+1143,Status Waiting for Customer,14.352544799,0.23920907998333335,Status Waiting for Customer
+1143,Status Working,0.406291546,0.006771525766666666,Status Working
+1144,Created.,4.315719769,0.07192866281666667,Created.
+1144,Status Escalated,18.167951847999998,0.3027991974666666,Status Escalated
+1144,Status In Progress,10.051908516000001,0.16753180860000003,Status In Progress
+1144,Status On Hold,13.883602999,0.23139338331666667,Status On Hold
+1144,Status Response Received,13.688811441,0.22814685735,Status Response Received
+1144,Status Waiting for Customer,13.089009963,0.21815016605,Status Waiting for Customer
+1144,Status Working,41.10329108,0.6850548513333333,Status Working
+1145,Created.,0.797775853,0.013296264216666666,Created.
+1145,Status Escalated,47.024253871,0.7837375645166667,Status Escalated
+1145,Status In Progress,25.181549882,0.4196924980333333,Status In Progress
+1145,Status On Hold,0.219147196,0.0036524532666666666,Status On Hold
+1145,Status Response Received,2.467235591,0.04112059318333334,Status Response Received
+1145,Status Waiting for Customer,11.877245543999999,0.19795409239999998,Status Waiting for Customer
+1145,Status Working,0.802255692,0.0133709282,Status Working
+1146,Created.,2.739738703,0.04566231171666667,Created.
+1146,Status Escalated,7.033207671,0.11722012785000001,Status Escalated
+1146,Status In Progress,11.711510666,0.19519184443333334,Status In Progress
+1146,Status On Hold,14.990779395,0.24984632325,Status On Hold
+1146,Status Response Received,15.905981673,0.26509969455,Status Response Received
+1146,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1146,Status Working,18.16956285,0.3028260475,Status Working
+1147,Created.,6.2931100959999995,0.10488516826666666,Created.
+1147,Status Escalated,12.658142741999999,0.2109690457,Status Escalated
+1147,Status In Progress,21.054948494999998,0.35091580824999996,Status In Progress
+1147,Status On Hold,0.0,0.0,Status On Hold
+1147,Status Response Received,0.187030811,0.003117180183333333,Status Response Received
+1147,Status Waiting for Customer,6.299669809,0.10499449681666667,Status Waiting for Customer
+1147,Status Working,18.907576286,0.3151262714333333,Status Working
+1148,Created.,1.693851659,0.02823086098333333,Created.
+1148,Status Escalated,1.844620793,0.030743679883333333,Status Escalated
+1148,Status In Progress,5.069164701,0.08448607835000001,Status In Progress
+1148,Status On Hold,7.853003053,0.13088338421666668,Status On Hold
+1148,Status Response Received,92.828984214,1.5471497369,Status Response Received
+1148,Status Waiting for Customer,18.597850543,0.3099641757166667,Status Waiting for Customer
+1148,Status Working,19.319469793,0.32199116321666665,Status Working
+1149,Created.,10.190727861,0.16984546434999997,Created.
+1149,Status Escalated,5.241795777,0.08736326295,Status Escalated
+1149,Status In Progress,0.0,0.0,Status In Progress
+1149,Status On Hold,10.24299606,0.170716601,Status On Hold
+1149,Status Response Received,0.0,0.0,Status Response Received
+1149,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1149,Status Working,24.69700975,0.41161682916666664,Status Working
+1150,Created.,0.885228855,0.01475381425,Created.
+1150,Status Escalated,6.359219334,0.1059869889,Status Escalated
+1150,Status In Progress,3.730520497,0.06217534161666667,Status In Progress
+1150,Status On Hold,7.011958792000001,0.11686597986666668,Status On Hold
+1150,Status Response Received,16.129750113,0.26882916855,Status Response Received
+1150,Status Waiting for Customer,19.258575597,0.32097625995,Status Waiting for Customer
+1150,Status Working,13.616574283,0.22694290471666667,Status Working
+1151,Created.,29.121042916,0.4853507152666667,Created.
+1151,Status Escalated,4.955347507,0.08258912511666666,Status Escalated
+1151,Status In Progress,9.897727768,0.16496212946666666,Status In Progress
+1151,Status On Hold,4.317786295,0.07196310491666667,Status On Hold
+1151,Status Response Received,12.361504623,0.20602507705,Status Response Received
+1151,Status Waiting for Customer,8.947672823,0.14912788038333333,Status Waiting for Customer
+1151,Status Working,26.526097737,0.44210162895,Status Working
+1152,Created.,5.553370266,0.0925561711,Created.
+1152,Status Escalated,51.814146186,0.8635691031,Status Escalated
+1152,Status In Progress,7.06765741,0.11779429016666666,Status In Progress
+1152,Status On Hold,6.038720532,0.1006453422,Status On Hold
+1152,Status Response Received,0.0,0.0,Status Response Received
+1152,Status Waiting for Customer,15.504745747000001,0.2584124291166667,Status Waiting for Customer
+1152,Status Working,0.18989716,0.0031649526666666667,Status Working
+1153,Created.,3.262913126,0.05438188543333333,Created.
+1153,Status Escalated,8.214976695,0.13691627825000002,Status Escalated
+1153,Status In Progress,0.772983581,0.012883059683333333,Status In Progress
+1153,Status On Hold,2.6344864230000002,0.043908107050000006,Status On Hold
+1153,Status Response Received,0.556531462,0.009275524366666668,Status Response Received
+1153,Status Waiting for Customer,15.288985651,0.25481642751666667,Status Waiting for Customer
+1153,Status Working,18.433880003,0.3072313333833333,Status Working
+1154,Created.,76.129166508,1.2688194418,Created.
+1154,Status Escalated,4.117936056,0.06863226759999999,Status Escalated
+1154,Status In Progress,3.341650645,0.05569417741666667,Status In Progress
+1154,Status On Hold,4.148606158,0.06914343596666667,Status On Hold
+1154,Status Response Received,0.0,0.0,Status Response Received
+1154,Status Waiting for Customer,19.573061724000002,0.32621769540000006,Status Waiting for Customer
+1154,Status Working,0.059807432,0.0009967905333333334,Status Working
+1155,Created.,19.296661817,0.3216110302833333,Created.
+1155,Status Escalated,15.70567755,0.2617612925,Status Escalated
+1155,Status In Progress,5.542476292,0.09237460486666667,Status In Progress
+1155,Status On Hold,3.3461148990000003,0.05576858165,Status On Hold
+1155,Status Response Received,0.0,0.0,Status Response Received
+1155,Status Waiting for Customer,7.9657173000000006,0.13276195500000001,Status Waiting for Customer
+1155,Status Working,8.792406594,0.1465401099,Status Working
+1156,Created.,38.888531815,0.6481421969166666,Created.
+1156,Status Escalated,2.159654967,0.035994249449999995,Status Escalated
+1156,Status In Progress,0.158183143,0.0026363857166666668,Status In Progress
+1156,Status On Hold,4.718930274,0.0786488379,Status On Hold
+1156,Status Response Received,1.068388906,0.017806481766666667,Status Response Received
+1156,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1156,Status Working,1.135556606,0.01892594343333333,Status Working
+1157,Created.,1.65135618,0.027522603,Created.
+1157,Status Escalated,15.094428138,0.2515738023,Status Escalated
+1157,Status In Progress,18.972039839,0.31620066398333335,Status In Progress
+1157,Status On Hold,0.125104104,0.0020850684,Status On Hold
+1157,Status Response Received,30.347862239,0.5057977039833333,Status Response Received
+1157,Status Waiting for Customer,1.26798453,0.0211330755,Status Waiting for Customer
+1157,Status Working,0.059063064,0.0009843844,Status Working
+1158,Created.,29.567608792,0.4927934798666667,Created.
+1158,Status Escalated,5.9464658550000005,0.09910776425000001,Status Escalated
+1158,Status In Progress,8.764730743,0.14607884571666666,Status In Progress
+1158,Status On Hold,2.428360483,0.04047267471666667,Status On Hold
+1158,Status Response Received,0.988670914,0.016477848566666665,Status Response Received
+1158,Status Waiting for Customer,13.79666163,0.22994436049999997,Status Waiting for Customer
+1158,Status Working,1.042380056,0.017373000933333334,Status Working
+1159,Created.,2.413724979,0.04022874965,Created.
+1159,Status Escalated,25.24830131,0.4208050218333333,Status Escalated
+1159,Status In Progress,3.853367355,0.06422278925,Status In Progress
+1159,Status On Hold,7.142159437,0.11903599061666667,Status On Hold
+1159,Status Response Received,7.19510813,0.11991846883333333,Status Response Received
+1159,Status Waiting for Customer,25.854550179,0.43090916965,Status Waiting for Customer
+1159,Status Working,3.518139884,0.058635664733333336,Status Working
+1160,Created.,6.18117308,0.10301955133333333,Created.
+1160,Status Escalated,24.278795525,0.4046465920833333,Status Escalated
+1160,Status In Progress,0.0,0.0,Status In Progress
+1160,Status On Hold,10.692008451,0.17820014085,Status On Hold
+1160,Status Response Received,80.78088015099999,1.3463480025166665,Status Response Received
+1160,Status Waiting for Customer,10.956145978,0.18260243296666667,Status Waiting for Customer
+1160,Status Working,11.67265163,0.19454419383333335,Status Working
+1161,Created.,25.402076044,0.4233679340666667,Created.
+1161,Status Escalated,7.120918634,0.11868197723333333,Status Escalated
+1161,Status In Progress,8.465317442,0.14108862403333333,Status In Progress
+1161,Status On Hold,11.15657006,0.18594283433333333,Status On Hold
+1161,Status Response Received,35.607650092,0.5934608348666667,Status Response Received
+1161,Status Waiting for Customer,16.716989253,0.27861648755,Status Waiting for Customer
+1161,Status Working,2.719710546,0.0453285091,Status Working
+1162,Created.,29.85017117,0.49750285283333334,Created.
+1162,Status Escalated,0.0,0.0,Status Escalated
+1162,Status In Progress,11.609907436,0.19349845726666667,Status In Progress
+1162,Status On Hold,0.0,0.0,Status On Hold
+1162,Status Response Received,0.939093517,0.015651558616666665,Status Response Received
+1162,Status Waiting for Customer,16.41638989,0.2736064981666667,Status Waiting for Customer
+1162,Status Working,33.409766545,0.5568294424166667,Status Working
+1163,Created.,35.40454197,0.5900756994999999,Created.
+1163,Status Escalated,0.832672351,0.013877872516666667,Status Escalated
+1163,Status In Progress,17.654926264,0.2942487710666667,Status In Progress
+1163,Status On Hold,4.955324829,0.08258874715,Status On Hold
+1163,Status Response Received,29.909853646000002,0.4984975607666667,Status Response Received
+1163,Status Waiting for Customer,12.024094185,0.20040156974999998,Status Waiting for Customer
+1163,Status Working,26.718490076000002,0.4453081679333334,Status Working
+1164,Created.,6.432292461,0.10720487435,Created.
+1164,Status Escalated,10.562825179999999,0.17604708633333332,Status Escalated
+1164,Status In Progress,3.160627236,0.052677120599999995,Status In Progress
+1164,Status On Hold,8.581790931,0.14302984885,Status On Hold
+1164,Status Response Received,74.473899046,1.2412316507666667,Status Response Received
+1164,Status Waiting for Customer,36.678580047,0.6113096674499999,Status Waiting for Customer
+1164,Status Working,13.521047774000001,0.22535079623333334,Status Working
+1165,Created.,7.593211639,0.12655352731666666,Created.
+1165,Status Escalated,35.141268613,0.5856878102166667,Status Escalated
+1165,Status In Progress,8.245308988,0.13742181646666665,Status In Progress
+1165,Status On Hold,3.598648218,0.0599774703,Status On Hold
+1165,Status Response Received,0.0,0.0,Status Response Received
+1165,Status Waiting for Customer,9.487396279,0.15812327131666667,Status Waiting for Customer
+1165,Status Working,15.817721827,0.26362869711666664,Status Working
+1166,Created.,7.164537511000001,0.11940895851666668,Created.
+1166,Status Escalated,46.919167537,0.7819861256166667,Status Escalated
+1166,Status In Progress,13.375903741999998,0.2229317290333333,Status In Progress
+1166,Status On Hold,5.031137223,0.08385228705,Status On Hold
+1166,Status Response Received,36.68115344,0.6113525573333334,Status Response Received
+1166,Status Waiting for Customer,5.461519255,0.09102532091666667,Status Waiting for Customer
+1166,Status Working,9.359209154,0.15598681923333332,Status Working
+1167,Created.,36.604819931,0.6100803321833334,Created.
+1167,Status Escalated,21.490797751,0.3581799625166667,Status Escalated
+1167,Status In Progress,13.414415167,0.22357358611666667,Status In Progress
+1167,Status On Hold,5.715485329,0.09525808881666667,Status On Hold
+1167,Status Response Received,23.647895911,0.3941315985166666,Status Response Received
+1167,Status Waiting for Customer,17.668042034,0.29446736723333333,Status Waiting for Customer
+1167,Status Working,29.593995937000003,0.4932332656166667,Status Working
+1168,Created.,13.162868838,0.2193811473,Created.
+1168,Status Escalated,10.932715789,0.18221192981666665,Status Escalated
+1168,Status In Progress,5.033825584000001,0.08389709306666668,Status In Progress
+1168,Status On Hold,7.0516173680000005,0.11752695613333335,Status On Hold
+1168,Status Response Received,4.813041139,0.08021735231666667,Status Response Received
+1168,Status Waiting for Customer,16.597060122,0.2766176687,Status Waiting for Customer
+1168,Status Working,14.831056131999999,0.24718426886666664,Status Working
+1169,Created.,0.464339939,0.007738998983333333,Created.
+1169,Status Escalated,3.036097862,0.05060163103333334,Status Escalated
+1169,Status In Progress,16.814093976,0.2802348996,Status In Progress
+1169,Status On Hold,4.383803842,0.07306339736666666,Status On Hold
+1169,Status Response Received,59.639727941000004,0.9939954656833334,Status Response Received
+1169,Status Waiting for Customer,2.75023003,0.045837167166666665,Status Waiting for Customer
+1169,Status Working,0.0,0.0,Status Working
+1170,Created.,1.487894632,0.024798243866666667,Created.
+1170,Status Escalated,0.729797492,0.012163291533333334,Status Escalated
+1170,Status In Progress,6.677620833,0.11129368055,Status In Progress
+1170,Status On Hold,5.730027515,0.09550045858333332,Status On Hold
+1170,Status Response Received,2.834209994,0.04723683323333334,Status Response Received
+1170,Status Waiting for Customer,19.012036687000002,0.3168672781166667,Status Waiting for Customer
+1170,Status Working,2.361915962,0.03936526603333333,Status Working
+1171,Created.,22.075015152,0.36791691919999997,Created.
+1171,Status Escalated,10.290169486,0.17150282476666667,Status Escalated
+1171,Status In Progress,0.9475329239999999,0.015792215399999997,Status In Progress
+1171,Status On Hold,4.020144638,0.06700241063333333,Status On Hold
+1171,Status Response Received,83.494202164,1.3915700360666667,Status Response Received
+1171,Status Waiting for Customer,18.714385454,0.3119064242333333,Status Waiting for Customer
+1171,Status Working,2.011996466,0.03353327443333333,Status Working
+1172,Created.,14.555838246999999,0.24259730411666663,Created.
+1172,Status Escalated,16.53421489,0.2755702481666667,Status Escalated
+1172,Status In Progress,8.139436321,0.13565727201666666,Status In Progress
+1172,Status On Hold,12.484358565,0.20807264275,Status On Hold
+1172,Status Response Received,0.9664052280000001,0.0161067538,Status Response Received
+1172,Status Waiting for Customer,14.69374855,0.24489580916666667,Status Waiting for Customer
+1172,Status Working,46.418097314,0.7736349552333334,Status Working
+1173,Created.,8.749499186000001,0.14582498643333336,Created.
+1173,Status Escalated,4.583740176,0.07639566960000001,Status Escalated
+1173,Status In Progress,0.0,0.0,Status In Progress
+1173,Status On Hold,16.222963287,0.27038272145,Status On Hold
+1173,Status Response Received,0.7862832049999999,0.013104720083333332,Status Response Received
+1173,Status Waiting for Customer,0.857986072,0.014299767866666667,Status Waiting for Customer
+1173,Status Working,0.0,0.0,Status Working
+1174,Created.,16.916974451999998,0.28194957419999994,Created.
+1174,Status Escalated,6.218479234,0.10364132056666667,Status Escalated
+1174,Status In Progress,0.55679308,0.009279884666666667,Status In Progress
+1174,Status On Hold,3.6547959039999998,0.06091326506666666,Status On Hold
+1174,Status Response Received,47.509318814,0.7918219802333333,Status Response Received
+1174,Status Waiting for Customer,22.219683181999997,0.37032805303333327,Status Waiting for Customer
+1174,Status Working,0.0,0.0,Status Working
+1175,Created.,4.215104901,0.07025174835,Created.
+1175,Status Escalated,20.29374383,0.33822906383333334,Status Escalated
+1175,Status In Progress,21.98424725,0.36640412083333335,Status In Progress
+1175,Status On Hold,15.80384854,0.26339747566666666,Status On Hold
+1175,Status Response Received,11.344880373999999,0.18908133956666665,Status Response Received
+1175,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1175,Status Working,9.928738067000001,0.16547896778333335,Status Working
+1176,Created.,3.0971547790000002,0.05161924631666667,Created.
+1176,Status Escalated,17.793150411,0.29655250685,Status Escalated
+1176,Status In Progress,20.497252063,0.34162086771666667,Status In Progress
+1176,Status On Hold,5.809676036,0.09682793393333333,Status On Hold
+1176,Status Response Received,12.782421375,0.21304035625,Status Response Received
+1176,Status Waiting for Customer,27.403552125,0.45672586875000004,Status Waiting for Customer
+1176,Status Working,49.615575006,0.8269262501,Status Working
+1177,Created.,41.406229743,0.69010382905,Created.
+1177,Status Escalated,21.137745018,0.3522957503,Status Escalated
+1177,Status In Progress,23.897333163000003,0.39828888605000007,Status In Progress
+1177,Status On Hold,13.502353952,0.22503923253333333,Status On Hold
+1177,Status Response Received,8.333899645,0.1388983274166667,Status Response Received
+1177,Status Waiting for Customer,20.658427245000002,0.34430712075000003,Status Waiting for Customer
+1177,Status Working,17.067754379,0.28446257298333333,Status Working
+1178,Created.,1.113016907,0.018550281783333334,Created.
+1178,Status Escalated,8.653056912,0.1442176152,Status Escalated
+1178,Status In Progress,11.330559355,0.18884265591666666,Status In Progress
+1178,Status On Hold,1.305326273,0.021755437883333333,Status On Hold
+1178,Status Response Received,8.37487872,0.13958131199999999,Status Response Received
+1178,Status Waiting for Customer,8.491754797,0.1415292466166667,Status Waiting for Customer
+1178,Status Working,14.780065775,0.24633442958333335,Status Working
+1179,Created.,4.468826378,0.07448043963333334,Created.
+1179,Status Escalated,6.360326314,0.10600543856666667,Status Escalated
+1179,Status In Progress,1.43186085,0.0238643475,Status In Progress
+1179,Status On Hold,3.857503622,0.06429172703333333,Status On Hold
+1179,Status Response Received,82.331498775,1.37219164625,Status Response Received
+1179,Status Waiting for Customer,55.112240311,0.9185373385166666,Status Waiting for Customer
+1179,Status Working,0.208921395,0.00348202325,Status Working
+1180,Created.,2.074092686,0.034568211433333336,Created.
+1180,Status Escalated,50.911738283999995,0.8485289713999999,Status Escalated
+1180,Status In Progress,5.227900751,0.08713167918333334,Status In Progress
+1180,Status On Hold,5.944751237,0.09907918728333334,Status On Hold
+1180,Status Response Received,12.629065277999999,0.21048442129999997,Status Response Received
+1180,Status Waiting for Customer,12.242690762999999,0.20404484604999998,Status Waiting for Customer
+1180,Status Working,3.998994746,0.06664991243333333,Status Working
+1181,Created.,14.681964245,0.24469940408333332,Created.
+1181,Status Escalated,42.673229063,0.7112204843833333,Status Escalated
+1181,Status In Progress,21.399692868,0.3566615478,Status In Progress
+1181,Status On Hold,20.141285471,0.3356880911833333,Status On Hold
+1181,Status Response Received,0.0,0.0,Status Response Received
+1181,Status Waiting for Customer,27.771540852,0.46285901420000003,Status Waiting for Customer
+1181,Status Working,26.949569621000002,0.44915949368333336,Status Working
+1182,Created.,1.230481212,0.020508020199999998,Created.
+1182,Status Escalated,31.205804926,0.5200967487666667,Status Escalated
+1182,Status In Progress,9.175867733,0.15293112888333335,Status In Progress
+1182,Status On Hold,0.193457181,0.00322428635,Status On Hold
+1182,Status Response Received,1.289013035,0.021483550583333334,Status Response Received
+1182,Status Waiting for Customer,2.485678406,0.041427973433333334,Status Waiting for Customer
+1182,Status Working,31.172794285000002,0.5195465714166667,Status Working
+1183,Created.,17.38658859,0.2897764765,Created.
+1183,Status Escalated,2.603072451,0.04338454085,Status Escalated
+1183,Status In Progress,17.057002153,0.28428336921666664,Status In Progress
+1183,Status On Hold,4.528191107,0.07546985178333333,Status On Hold
+1183,Status Response Received,8.5090835,0.14181805833333333,Status Response Received
+1183,Status Waiting for Customer,28.97413084,0.4829021806666667,Status Waiting for Customer
+1184,Created.,25.919120858,0.43198534763333335,Created.
+1184,Status Escalated,9.589370757000001,0.15982284595000001,Status Escalated
+1184,Status In Progress,16.886927613,0.28144879355,Status In Progress
+1184,Status On Hold,3.862403048,0.06437338413333334,Status On Hold
+1184,Status Response Received,54.04385332,0.9007308886666666,Status Response Received
+1184,Status Waiting for Customer,14.036030440000001,0.2339338406666667,Status Waiting for Customer
+1184,Status Working,12.03275804,0.20054596733333332,Status Working
+1185,Created.,5.985607535,0.09976012558333333,Created.
+1185,Status Escalated,5.77994741,0.09633245683333333,Status Escalated
+1185,Status In Progress,15.628565423000001,0.26047609038333336,Status In Progress
+1185,Status On Hold,7.447391721,0.12412319534999999,Status On Hold
+1185,Status Response Received,0.52366977,0.008727829500000001,Status Response Received
+1185,Status Waiting for Customer,25.856268824,0.43093781373333334,Status Waiting for Customer
+1185,Status Working,11.820266904,0.1970044484,Status Working
+1186,Created.,2.320112271,0.038668537850000004,Created.
+1186,Status Escalated,1.351780696,0.02252967826666667,Status Escalated
+1186,Status In Progress,3.782541885,0.06304236475,Status In Progress
+1186,Status On Hold,1.607476412,0.026791273533333333,Status On Hold
+1186,Status Response Received,0.999972698,0.016666211633333334,Status Response Received
+1186,Status Waiting for Customer,19.356401114,0.32260668523333336,Status Waiting for Customer
+1186,Status Working,11.345206006,0.18908676676666666,Status Working
+1187,Created.,1.113573606,0.0185595601,Created.
+1187,Status In Progress,10.559232102,0.17598720169999998,Status In Progress
+1187,Status On Hold,1.385656677,0.023094277950000002,Status On Hold
+1187,Status Response Received,38.953589140999995,0.6492264856833333,Status Response Received
+1187,Status Waiting for Customer,4.985351004,0.0830891834,Status Waiting for Customer
+1187,Status Working,39.095988248,0.6515998041333333,Status Working
+1188,Created.,23.265359952,0.38775599920000003,Created.
+1188,Status Escalated,1.283691576,0.0213948596,Status Escalated
+1188,Status In Progress,0.0,0.0,Status In Progress
+1188,Status On Hold,0.1987707,0.003312845,Status On Hold
+1188,Status Response Received,1.283287297,0.021388121616666665,Status Response Received
+1188,Status Waiting for Customer,4.134309847,0.06890516411666667,Status Waiting for Customer
+1188,Status Working,0.0,0.0,Status Working
+1189,Created.,8.571900446999999,0.14286500745,Created.
+1189,Status Escalated,4.271290917,0.07118818195,Status Escalated
+1189,Status In Progress,21.776110733000003,0.3629351788833334,Status In Progress
+1189,Status On Hold,4.9562454780000005,0.0826040913,Status On Hold
+1189,Status Response Received,14.371681113,0.23952801855,Status Response Received
+1189,Status Waiting for Customer,36.058302781,0.6009717130166667,Status Waiting for Customer
+1189,Status Working,15.265689824999999,0.25442816375,Status Working
+1190,Created.,8.321265958000001,0.13868776596666668,Created.
+1190,Status Escalated,28.454859203999998,0.47424765339999997,Status Escalated
+1190,Status In Progress,8.293009368,0.1382168228,Status In Progress
+1190,Status On Hold,2.592378489,0.043206308150000004,Status On Hold
+1190,Status Response Received,34.381968369,0.57303280615,Status Response Received
+1190,Status Waiting for Customer,6.26068037,0.10434467283333333,Status Waiting for Customer
+1190,Status Working,16.13439605,0.26890660083333334,Status Working
+1191,Created.,18.478967798,0.30798279663333333,Created.
+1191,Status Escalated,1.853972927,0.030899548783333335,Status Escalated
+1191,Status In Progress,5.273239515,0.08788732525000001,Status In Progress
+1191,Status On Hold,3.4734071159999997,0.0578901186,Status On Hold
+1191,Status Response Received,0.656110877,0.010935181283333335,Status Response Received
+1191,Status Waiting for Customer,19.898955169,0.3316492528166667,Status Waiting for Customer
+1191,Status Working,34.27034139,0.5711723565,Status Working
+1192,Created.,4.148728423,0.06914547371666666,Created.
+1192,Status Escalated,109.753456121,1.8292242686833333,Status Escalated
+1192,Status In Progress,15.276122043,0.25460203405000004,Status In Progress
+1192,Status On Hold,9.609967829999999,0.16016613049999998,Status On Hold
+1192,Status Response Received,19.306137286,0.3217689547666666,Status Response Received
+1192,Status Waiting for Customer,34.325631226,0.5720938537666667,Status Waiting for Customer
+1192,Status Working,0.0,0.0,Status Working
+1193,Created.,0.267273453,0.00445455755,Created.
+1193,Status Escalated,12.89558846,0.21492647433333334,Status Escalated
+1193,Status In Progress,2.087584754,0.03479307923333333,Status In Progress
+1193,Status On Hold,19.577575640000003,0.32629292733333337,Status On Hold
+1193,Status Response Received,0.0,0.0,Status Response Received
+1193,Status Waiting for Customer,16.621799556,0.2770299926,Status Waiting for Customer
+1193,Status Working,12.593306305,0.20988843841666668,Status Working
+1194,Created.,6.8523049160000005,0.11420508193333334,Created.
+1194,Status Escalated,0.717895422,0.0119649237,Status Escalated
+1194,Status In Progress,9.91897109,0.16531618483333332,Status In Progress
+1194,Status On Hold,0.472978131,0.00788296885,Status On Hold
+1194,Status Response Received,2.201446313,0.036690771883333334,Status Response Received
+1194,Status Waiting for Customer,33.292141095,0.55486901825,Status Waiting for Customer
+1194,Status Working,10.004930584,0.16674884306666668,Status Working
+1195,Created.,6.436200973,0.10727001621666667,Created.
+1195,Status Escalated,20.398283384000003,0.33997138973333335,Status Escalated
+1195,Status In Progress,6.7997303339999995,0.11332883889999999,Status In Progress
+1195,Status On Hold,20.60582452,0.34343040866666663,Status On Hold
+1195,Status Response Received,31.410387345,0.52350645575,Status Response Received
+1195,Status Waiting for Customer,0.189019435,0.003150323916666667,Status Waiting for Customer
+1196,Created.,0.0,0.0,Created.
+1196,Status Escalated,8.045724165,0.13409540274999998,Status Escalated
+1196,Status In Progress,25.894079876,0.43156799793333334,Status In Progress
+1196,Status On Hold,10.285327525,0.17142212541666665,Status On Hold
+1196,Status Response Received,69.590557152,1.1598426192,Status Response Received
+1196,Status Waiting for Customer,19.348476441,0.32247460735,Status Waiting for Customer
+1196,Status Working,2.619920147,0.043665335783333335,Status Working
+1197,Created.,33.549051964,0.5591508660666666,Created.
+1197,Status Escalated,14.266924209999999,0.23778207016666666,Status Escalated
+1197,Status In Progress,2.191605451,0.03652675751666667,Status In Progress
+1197,Status On Hold,5.0858770369999995,0.08476461728333333,Status On Hold
+1197,Status Response Received,0.491903727,0.00819839545,Status Response Received
+1197,Status Waiting for Customer,26.557680775,0.4426280129166667,Status Waiting for Customer
+1197,Status Working,1.950063924,0.0325010654,Status Working
+1198,Created.,8.022700845,0.13371168074999998,Created.
+1198,Status Escalated,8.359930717,0.13933217861666666,Status Escalated
+1198,Status In Progress,7.393721021,0.12322868368333334,Status In Progress
+1198,Status On Hold,10.326934652,0.17211557753333334,Status On Hold
+1198,Status Response Received,11.629059652,0.19381766086666669,Status Response Received
+1198,Status Waiting for Customer,28.494444407,0.4749074067833333,Status Waiting for Customer
+1198,Status Working,2.085715417,0.03476192361666666,Status Working
+1199,Created.,8.086546457,0.13477577428333334,Created.
+1199,Status Escalated,15.148347325999998,0.2524724554333333,Status Escalated
+1199,Status In Progress,3.8530796609999998,0.06421799435,Status In Progress
+1199,Status On Hold,7.167989563,0.11946649271666666,Status On Hold
+1199,Status Response Received,23.450423273,0.3908403878833333,Status Response Received
+1199,Status Waiting for Customer,2.074951774,0.034582529566666666,Status Waiting for Customer
+1199,Status Working,40.99996817,0.6833328028333334,Status Working
+1200,Created.,15.239549457999999,0.25399249096666665,Created.
+1200,Status Escalated,1.713845007,0.02856408345,Status Escalated
+1200,Status In Progress,18.937276439,0.31562127398333334,Status In Progress
+1200,Status On Hold,2.694788536,0.044913142266666664,Status On Hold
+1200,Status Response Received,0.0,0.0,Status Response Received
+1200,Status Waiting for Customer,31.588817814,0.5264802969,Status Waiting for Customer
+1200,Status Working,3.444610687,0.05741017811666667,Status Working
+1201,Created.,57.081017336,0.9513502889333334,Created.
+1201,Status Escalated,18.381779321,0.30636298868333334,Status Escalated
+1201,Status In Progress,6.668288878,0.11113814796666667,Status In Progress
+1201,Status On Hold,6.364888239000001,0.10608147065000001,Status On Hold
+1201,Status Response Received,23.765826970000003,0.3960971161666667,Status Response Received
+1201,Status Waiting for Customer,21.137724804,0.35229541340000003,Status Waiting for Customer
+1201,Status Working,1.639787335,0.027329788916666667,Status Working
+1202,Created.,34.71901685500001,0.5786502809166668,Created.
+1202,Status Escalated,13.818421407,0.23030702345,Status Escalated
+1202,Status In Progress,32.013314236999996,0.5335552372833333,Status In Progress
+1202,Status On Hold,3.5057152289999998,0.058428587149999996,Status On Hold
+1202,Status Response Received,1.6898659569999999,0.028164432616666665,Status Response Received
+1202,Status Waiting for Customer,1.705603308,0.0284267218,Status Waiting for Customer
+1202,Status Working,13.03994946,0.21733249100000002,Status Working
+1203,Created.,43.391972816,0.7231995469333333,Created.
+1203,Status Escalated,53.114290593999996,0.8852381765666666,Status Escalated
+1203,Status In Progress,28.812868197999997,0.4802144699666666,Status In Progress
+1203,Status On Hold,3.4409843689999997,0.05734973948333333,Status On Hold
+1203,Status Response Received,49.440602518000006,0.8240100419666667,Status Response Received
+1203,Status Waiting for Customer,12.588169201,0.20980282001666667,Status Waiting for Customer
+1203,Status Working,18.2422671,0.304037785,Status Working
+1204,Created.,23.970061998000002,0.39950103330000003,Created.
+1204,Status Escalated,0.60153633,0.0100256055,Status Escalated
+1204,Status In Progress,13.955003243,0.23258338738333334,Status In Progress
+1204,Status On Hold,3.970871016,0.0661811836,Status On Hold
+1204,Status Response Received,0.064641091,0.0010773515166666665,Status Response Received
+1204,Status Waiting for Customer,15.470308091,0.25783846818333334,Status Waiting for Customer
+1204,Status Working,45.534896851,0.7589149475166667,Status Working
+1205,Created.,15.442242242,0.25737070403333334,Created.
+1205,Status Escalated,1.265642686,0.021094044766666667,Status Escalated
+1205,Status In Progress,3.43286822,0.05721447033333334,Status In Progress
+1205,Status On Hold,14.16772042,0.23612867366666668,Status On Hold
+1205,Status Response Received,16.148414237,0.26914023728333336,Status Response Received
+1205,Status Waiting for Customer,10.067780506,0.16779634176666666,Status Waiting for Customer
+1205,Status Working,16.946343031,0.2824390505166667,Status Working
+1206,Created.,54.296155038,0.9049359173,Created.
+1206,Status Escalated,17.190032067,0.28650053445,Status Escalated
+1206,Status In Progress,6.863821583,0.11439702638333334,Status In Progress
+1206,Status On Hold,8.133549754,0.13555916256666667,Status On Hold
+1206,Status Response Received,0.0,0.0,Status Response Received
+1206,Status Waiting for Customer,6.488907917,0.10814846528333333,Status Waiting for Customer
+1206,Status Working,25.36759996,0.4227933326666667,Status Working
+1207,Created.,25.720934347999997,0.42868223913333325,Created.
+1207,Status Escalated,0.0,0.0,Status Escalated
+1207,Status In Progress,17.110131732,0.2851688622,Status In Progress
+1207,Status On Hold,10.751638683,0.17919397804999998,Status On Hold
+1207,Status Response Received,38.931590072,0.6488598345333333,Status Response Received
+1207,Status Waiting for Customer,9.597090762,0.15995151270000002,Status Waiting for Customer
+1207,Status Working,1.094229124,0.018237152066666665,Status Working
+1208,Status Escalated,1.02484098,0.017080683,Status Escalated
+1208,Status In Progress,27.605617658000003,0.4600936276333334,Status In Progress
+1208,Status On Hold,0.338572954,0.005642882566666666,Status On Hold
+1208,Status Response Received,28.790920386,0.4798486731,Status Response Received
+1208,Status Waiting for Customer,8.052260849,0.13420434748333332,Status Waiting for Customer
+1208,Status Working,14.608212915000001,0.24347021525,Status Working
+1209,Created.,16.405877874999998,0.27343129791666665,Created.
+1209,Status Escalated,49.085232984,0.8180872164,Status Escalated
+1209,Status In Progress,7.276515678999999,0.12127526131666665,Status In Progress
+1209,Status On Hold,7.3800084020000005,0.12300014003333334,Status On Hold
+1209,Status Response Received,0.274435032,0.0045739172,Status Response Received
+1209,Status Waiting for Customer,17.672593133,0.29454321888333335,Status Waiting for Customer
+1209,Status Working,9.578041078,0.15963401796666668,Status Working
+1210,Created.,7.012111712,0.11686852853333334,Created.
+1210,Status Escalated,3.135358202,0.052255970033333335,Status Escalated
+1210,Status In Progress,10.118739295000001,0.1686456549166667,Status In Progress
+1210,Status On Hold,0.0,0.0,Status On Hold
+1210,Status Response Received,24.883314238,0.4147219039666667,Status Response Received
+1210,Status Waiting for Customer,27.452408813999998,0.45754014689999994,Status Waiting for Customer
+1210,Status Working,2.9650302710000003,0.04941717118333334,Status Working
+1211,Created.,5.279717305,0.08799528841666666,Created.
+1211,Status Escalated,10.600826954999999,0.17668044924999998,Status Escalated
+1211,Status In Progress,0.0,0.0,Status In Progress
+1211,Status On Hold,3.428069045,0.05713448408333333,Status On Hold
+1211,Status Response Received,35.909233608,0.5984872268,Status Response Received
+1211,Status Waiting for Customer,5.520387337000001,0.09200645561666668,Status Waiting for Customer
+1211,Status Working,1.094738489,0.018245641483333335,Status Working
+1212,Created.,5.038450172,0.08397416953333334,Created.
+1212,Status Escalated,30.205722366000003,0.5034287061,Status Escalated
+1212,Status In Progress,22.01638996,0.3669398326666667,Status In Progress
+1212,Status On Hold,9.926047552,0.16543412586666667,Status On Hold
+1212,Status Response Received,38.0725714,0.6345428566666667,Status Response Received
+1212,Status Waiting for Customer,7.988847341,0.13314745568333333,Status Waiting for Customer
+1212,Status Working,2.119760721,0.03532934535,Status Working
+1213,Created.,15.269097816,0.2544849636,Created.
+1213,Status Escalated,5.95899218,0.09931653633333333,Status Escalated
+1213,Status In Progress,29.227630239,0.48712717065,Status In Progress
+1213,Status On Hold,7.503093022,0.12505155036666665,Status On Hold
+1213,Status Response Received,7.645287505,0.12742145841666666,Status Response Received
+1213,Status Waiting for Customer,11.347393783000001,0.18912322971666667,Status Waiting for Customer
+1213,Status Working,15.776273888,0.26293789813333335,Status Working
+1214,Created.,30.459302542,0.5076550423666667,Created.
+1214,Status Escalated,10.28818964,0.17146982733333335,Status Escalated
+1214,Status In Progress,4.161718596,0.0693619766,Status In Progress
+1214,Status On Hold,4.164105715,0.06940176191666667,Status On Hold
+1214,Status Response Received,24.377055650000003,0.40628426083333335,Status Response Received
+1214,Status Waiting for Customer,21.549529068000002,0.35915881780000003,Status Waiting for Customer
+1214,Status Working,16.85933657,0.2809889428333333,Status Working
+1215,Created.,16.828009533,0.28046682554999997,Created.
+1215,Status Escalated,0.0,0.0,Status Escalated
+1215,Status In Progress,12.461762724,0.2076960454,Status In Progress
+1215,Status On Hold,5.069547806,0.08449246343333333,Status On Hold
+1215,Status Response Received,81.513673967,1.3585612327833334,Status Response Received
+1215,Status Waiting for Customer,30.941274461000003,0.5156879076833334,Status Waiting for Customer
+1215,Status Working,0.391496596,0.006524943266666666,Status Working
+1216,Created.,4.767656871,0.07946094784999999,Created.
+1216,Status Escalated,23.20438661,0.3867397768333333,Status Escalated
+1216,Status In Progress,3.232888624,0.05388147706666667,Status In Progress
+1216,Status On Hold,3.562059358,0.05936765596666667,Status On Hold
+1216,Status Response Received,6.814970173,0.11358283621666666,Status Response Received
+1216,Status Waiting for Customer,4.296945113,0.07161575188333333,Status Waiting for Customer
+1216,Status Working,2.328758236,0.038812637266666665,Status Working
+1217,Created.,18.850608634,0.3141768105666667,Created.
+1217,Status Escalated,18.371178823,0.30618631371666666,Status Escalated
+1217,Status In Progress,7.933369342,0.13222282236666666,Status In Progress
+1217,Status On Hold,12.792039262,0.21320065436666666,Status On Hold
+1217,Status Response Received,8.883065981,0.14805109968333333,Status Response Received
+1217,Status Waiting for Customer,11.049437096,0.18415728493333333,Status Waiting for Customer
+1217,Status Working,2.631735536,0.04386225893333333,Status Working
+1218,Created.,15.359087004,0.25598478339999997,Created.
+1218,Status Escalated,17.537390319,0.29228983865,Status Escalated
+1218,Status In Progress,4.80990878,0.08016514633333333,Status In Progress
+1218,Status On Hold,21.740890176999997,0.3623481696166666,Status On Hold
+1218,Status Response Received,98.85209512,1.6475349186666668,Status Response Received
+1218,Status Waiting for Customer,10.348319481,0.17247199135000002,Status Waiting for Customer
+1218,Status Working,2.317543364,0.03862572273333333,Status Working
+1219,Created.,16.69144966,0.27819082766666664,Created.
+1219,Status Escalated,5.826221015,0.09710368358333334,Status Escalated
+1219,Status In Progress,12.27032477,0.20450541283333334,Status In Progress
+1219,Status On Hold,2.996863479,0.04994772465,Status On Hold
+1219,Status Response Received,1.5096130209999998,0.025160217016666663,Status Response Received
+1219,Status Waiting for Customer,5.690480259,0.09484133765,Status Waiting for Customer
+1219,Status Working,14.888946987,0.24814911645,Status Working
+1220,Created.,14.807056304,0.24678427173333334,Created.
+1220,Status Escalated,18.774306375000002,0.31290510625,Status Escalated
+1220,Status In Progress,5.301325187,0.08835541978333333,Status In Progress
+1220,Status On Hold,3.8419339669999997,0.06403223278333332,Status On Hold
+1220,Status Response Received,12.920412627000001,0.21534021045,Status Response Received
+1220,Status Waiting for Customer,22.598408877,0.37664014795,Status Waiting for Customer
+1220,Status Working,23.95262602,0.3992104336666667,Status Working
+1221,Created.,15.32468712,0.255411452,Created.
+1221,Status Escalated,5.018109379,0.08363515631666667,Status Escalated
+1221,Status In Progress,10.258013264,0.17096688773333335,Status In Progress
+1221,Status On Hold,4.020378395,0.06700630658333333,Status On Hold
+1221,Status Response Received,0.488960349,0.00814933915,Status Response Received
+1221,Status Waiting for Customer,8.858790493999999,0.1476465082333333,Status Waiting for Customer
+1221,Status Working,13.554865285,0.22591442141666668,Status Working
+1222,Created.,17.77426243,0.2962377071666667,Created.
+1222,Status Escalated,3.348728343,0.05581213905,Status Escalated
+1222,Status In Progress,5.076451023,0.08460751705,Status In Progress
+1222,Status On Hold,19.414197371,0.32356995618333334,Status On Hold
+1222,Status Response Received,21.989588348999998,0.36649313915,Status Response Received
+1222,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1222,Status Working,0.47649116199999997,0.007941519366666667,Status Working
+1223,Created.,23.448170599,0.3908028433166667,Created.
+1223,Status Escalated,20.871092695,0.3478515449166667,Status Escalated
+1223,Status In Progress,46.168262741999996,0.7694710456999999,Status In Progress
+1223,Status On Hold,1.288257561,0.02147095935,Status On Hold
+1223,Status Response Received,0.06111042,0.0010185069999999999,Status Response Received
+1223,Status Waiting for Customer,34.893576780000004,0.581559613,Status Waiting for Customer
+1223,Status Working,0.787805953,0.013130099216666666,Status Working
+1224,Created.,21.718445476,0.36197409126666663,Created.
+1224,Status Escalated,25.15502442,0.419250407,Status Escalated
+1224,Status In Progress,5.798964059,0.09664940098333334,Status In Progress
+1224,Status On Hold,8.440362977,0.14067271628333333,Status On Hold
+1224,Status Response Received,0.0,0.0,Status Response Received
+1224,Status Waiting for Customer,18.487733737,0.3081288956166667,Status Waiting for Customer
+1224,Status Working,0.362470697,0.006041178283333334,Status Working
+1225,Created.,6.146850678,0.1024475113,Created.
+1225,Status Escalated,22.431649914,0.3738608319,Status Escalated
+1225,Status In Progress,4.643673381,0.07739455635,Status In Progress
+1225,Status On Hold,7.865141277999999,0.13108568796666667,Status On Hold
+1225,Status Response Received,2.505645446,0.04176075743333333,Status Response Received
+1225,Status Waiting for Customer,18.424563995,0.3070760665833333,Status Waiting for Customer
+1225,Status Working,1.1722185840000001,0.019536976400000003,Status Working
+1226,Created.,0.508735907,0.008478931783333334,Created.
+1226,Status Escalated,16.262332224,0.2710388704,Status Escalated
+1226,Status In Progress,20.357571819,0.33929286365,Status In Progress
+1226,Status On Hold,3.745187895,0.06241979825,Status On Hold
+1226,Status Response Received,4.07453746,0.06790895766666667,Status Response Received
+1226,Status Waiting for Customer,2.325301969,0.03875503281666667,Status Waiting for Customer
+1226,Status Working,13.721579011000001,0.2286929835166667,Status Working
+1227,Created.,5.142813265999999,0.08571355443333332,Created.
+1227,Status Escalated,51.255564408,0.8542594068,Status Escalated
+1227,Status In Progress,0.323777704,0.005396295066666667,Status In Progress
+1227,Status On Hold,4.447655983,0.07412759971666666,Status On Hold
+1227,Status Response Received,0.0,0.0,Status Response Received
+1227,Status Waiting for Customer,11.903164365999999,0.19838607276666664,Status Waiting for Customer
+1227,Status Working,19.343853692,0.3223975615333333,Status Working
+1228,Created.,0.308332598,0.005138876633333333,Created.
+1228,Status Escalated,6.858326644,0.11430544406666666,Status Escalated
+1228,Status In Progress,10.542565355,0.17570942258333336,Status In Progress
+1228,Status On Hold,4.620479672,0.07700799453333333,Status On Hold
+1228,Status Response Received,40.169498768,0.6694916461333332,Status Response Received
+1228,Status Waiting for Customer,3.503145876,0.0583857646,Status Waiting for Customer
+1228,Status Working,13.327404213,0.22212340355,Status Working
+1229,Created.,10.777635993,0.17962726655,Created.
+1229,Status In Progress,5.927652161999999,0.09879420269999999,Status In Progress
+1229,Status On Hold,1.934247968,0.03223746613333333,Status On Hold
+1229,Status Response Received,34.757919455,0.5792986575833333,Status Response Received
+1229,Status Waiting for Customer,3.1492470359999998,0.0524874506,Status Waiting for Customer
+1229,Status Working,0.484086026,0.008068100433333333,Status Working
+1230,Created.,15.285212388,0.2547535398,Created.
+1230,Status Escalated,1.011701277,0.01686168795,Status Escalated
+1230,Status In Progress,12.726759792,0.2121126632,Status In Progress
+1230,Status On Hold,0.9569235799999999,0.015948726333333333,Status On Hold
+1230,Status Response Received,14.55028876,0.24250481266666668,Status Response Received
+1230,Status Waiting for Customer,17.042851534,0.2840475255666667,Status Waiting for Customer
+1230,Status Working,23.72293768,0.3953822946666667,Status Working
+1231,Created.,0.7697179000000001,0.012828631666666668,Created.
+1231,Status Escalated,26.960318055000002,0.44933863425000004,Status Escalated
+1231,Status In Progress,3.5052547379999996,0.058420912299999996,Status In Progress
+1231,Status On Hold,0.8275518439999999,0.013792530733333332,Status On Hold
+1231,Status Response Received,84.49720744,1.4082867906666665,Status Response Received
+1231,Status Waiting for Customer,3.09786904,0.05163115066666667,Status Waiting for Customer
+1231,Status Working,18.127263680000002,0.3021210613333334,Status Working
+1232,Created.,27.793324107,0.46322206845,Created.
+1232,Status Escalated,23.656076566,0.39426794276666666,Status Escalated
+1232,Status In Progress,4.677497493,0.07795829154999999,Status In Progress
+1232,Status On Hold,13.046426211,0.21744043685,Status On Hold
+1232,Status Response Received,32.012838965,0.5335473160833334,Status Response Received
+1232,Status Waiting for Customer,16.142181587000003,0.2690363597833334,Status Waiting for Customer
+1232,Status Working,18.862360577,0.3143726762833333,Status Working
+1233,Created.,29.938765033,0.49897941721666667,Created.
+1233,Status Escalated,8.106507405,0.13510845675,Status Escalated
+1233,Status In Progress,16.465494812,0.2744249135333333,Status In Progress
+1233,Status On Hold,1.2729834800000002,0.021216391333333338,Status On Hold
+1233,Status Response Received,10.661892255,0.17769820425,Status Response Received
+1233,Status Waiting for Customer,1.608118202,0.026801970033333334,Status Waiting for Customer
+1233,Status Working,17.825299751,0.29708832918333333,Status Working
+1234,Created.,12.81160785,0.2135267975,Created.
+1234,Status Escalated,39.056848568,0.6509474761333334,Status Escalated
+1234,Status In Progress,4.03610825,0.06726847083333333,Status In Progress
+1234,Status On Hold,3.935062754,0.06558437923333334,Status On Hold
+1234,Status Response Received,21.950019549,0.36583365915,Status Response Received
+1234,Status Waiting for Customer,4.718079587,0.07863465978333334,Status Waiting for Customer
+1234,Status Working,13.537771887,0.22562953145,Status Working
+1235,Created.,0.834905282,0.013915088033333333,Created.
+1235,Status Escalated,7.009447787,0.11682412978333333,Status Escalated
+1235,Status In Progress,20.952160183,0.3492026697166667,Status In Progress
+1235,Status On Hold,4.487543114999999,0.07479238525,Status On Hold
+1235,Status Response Received,33.077974669,0.5512995778166666,Status Response Received
+1235,Status Waiting for Customer,11.038295231,0.1839715871833333,Status Waiting for Customer
+1235,Status Working,0.662046242,0.011034104033333332,Status Working
+1236,Created.,37.491903557,0.6248650592833334,Created.
+1236,Status Escalated,23.330891925,0.38884819875,Status Escalated
+1236,Status In Progress,20.15897916,0.33598298600000004,Status In Progress
+1236,Status On Hold,2.047365149,0.03412275248333333,Status On Hold
+1236,Status Response Received,12.940293876,0.2156715646,Status Response Received
+1236,Status Waiting for Customer,22.043390614,0.36738984356666665,Status Waiting for Customer
+1236,Status Working,3.778690901,0.06297818168333333,Status Working
+1237,Created.,7.221776978,0.12036294963333334,Created.
+1237,Status Escalated,5.635648345,0.09392747241666667,Status Escalated
+1237,Status In Progress,21.002213313,0.35003688855,Status In Progress
+1237,Status On Hold,2.22686858,0.037114476333333334,Status On Hold
+1237,Status Response Received,13.072914185,0.21788190308333333,Status Response Received
+1237,Status Waiting for Customer,19.556901918,0.32594836530000004,Status Waiting for Customer
+1237,Status Working,23.788464767,0.39647441278333334,Status Working
+1238,Created.,7.822019039,0.13036698398333332,Created.
+1238,Status Escalated,2.226332934,0.0371055489,Status Escalated
+1238,Status In Progress,0.72509154,0.012084859,Status In Progress
+1238,Status On Hold,2.25738592,0.03762309866666667,Status On Hold
+1238,Status Response Received,9.772079412,0.1628679902,Status Response Received
+1238,Status Waiting for Customer,20.257302178000003,0.3376217029666667,Status Waiting for Customer
+1238,Status Working,16.160048621,0.26933414368333336,Status Working
+1239,Created.,9.751078108,0.16251796846666666,Created.
+1239,Status Escalated,3.230572063,0.053842867716666666,Status Escalated
+1239,Status In Progress,14.565879548,0.24276465913333334,Status In Progress
+1239,Status On Hold,10.229755558999999,0.17049592598333332,Status On Hold
+1239,Status Response Received,12.58859224,0.20980987066666668,Status Response Received
+1239,Status Waiting for Customer,27.978812137000002,0.4663135356166667,Status Waiting for Customer
+1239,Status Working,0.308953396,0.005149223266666667,Status Working
+1240,Created.,1.234451037,0.020574183949999998,Created.
+1240,Status Escalated,4.758948016,0.07931580026666667,Status Escalated
+1240,Status In Progress,20.631739174,0.3438623195666667,Status In Progress
+1240,Status On Hold,2.77019906,0.04616998433333333,Status On Hold
+1240,Status Response Received,105.145805186,1.7524300864333333,Status Response Received
+1240,Status Waiting for Customer,11.297125902,0.18828543169999998,Status Waiting for Customer
+1240,Status Working,4.603168077,0.07671946795000001,Status Working
+1241,Created.,0.775964646,0.0129327441,Created.
+1241,Status Escalated,15.189562658,0.25315937763333335,Status Escalated
+1241,Status In Progress,15.08931276,0.251488546,Status In Progress
+1241,Status On Hold,13.762025926,0.22936709876666667,Status On Hold
+1241,Status Response Received,7.903230321,0.13172050535,Status Response Received
+1241,Status Waiting for Customer,7.893489537000001,0.13155815895,Status Waiting for Customer
+1241,Status Working,3.565861292,0.059431021533333336,Status Working
+1242,Created.,2.673329614,0.04455549356666667,Created.
+1242,Status Escalated,0.984552017,0.01640920028333333,Status Escalated
+1242,Status In Progress,5.610957621,0.09351596035,Status In Progress
+1242,Status On Hold,1.2903511920000001,0.0215058532,Status On Hold
+1242,Status Response Received,7.885170269,0.13141950448333334,Status Response Received
+1242,Status Waiting for Customer,32.233355279,0.5372225879833333,Status Waiting for Customer
+1242,Status Working,21.390171542,0.35650285903333334,Status Working
+1243,Created.,8.54152436,0.14235873933333335,Created.
+1243,Status Escalated,6.112226811,0.10187044685,Status Escalated
+1243,Status In Progress,6.256292609,0.10427154348333333,Status In Progress
+1243,Status On Hold,1.270128373,0.021168806216666666,Status On Hold
+1243,Status Response Received,83.014652156,1.3835775359333333,Status Response Received
+1243,Status Waiting for Customer,5.051027701000001,0.08418379501666667,Status Waiting for Customer
+1243,Status Working,0.0,0.0,Status Working
+1244,Created.,5.832899681,0.09721499468333333,Created.
+1244,Status Escalated,12.737608743,0.21229347904999998,Status Escalated
+1244,Status In Progress,58.374964329,0.97291607215,Status In Progress
+1244,Status On Hold,3.654836752,0.060913945866666666,Status On Hold
+1244,Status Response Received,24.822222852,0.4137037142,Status Response Received
+1244,Status Waiting for Customer,34.338680612,0.5723113435333332,Status Waiting for Customer
+1244,Status Working,1.859120297,0.030985338283333334,Status Working
+1245,Created.,25.39275179,0.4232125298333333,Created.
+1245,Status Escalated,21.427828375999997,0.3571304729333333,Status Escalated
+1245,Status In Progress,33.922570265000004,0.5653761710833334,Status In Progress
+1245,Status On Hold,8.926064864,0.14876774773333334,Status On Hold
+1245,Status Response Received,18.064051001,0.3010675166833333,Status Response Received
+1245,Status Waiting for Customer,28.186298412,0.4697716402,Status Waiting for Customer
+1245,Status Working,2.4990213519999998,0.04165035586666666,Status Working
+1246,Created.,1.913383153,0.03188971921666667,Created.
+1246,Status Escalated,20.933043668,0.3488840611333333,Status Escalated
+1246,Status In Progress,7.101243033,0.11835405055,Status In Progress
+1246,Status On Hold,12.252921082,0.20421535136666666,Status On Hold
+1246,Status Response Received,81.321374741,1.3553562456833332,Status Response Received
+1246,Status Waiting for Customer,9.311658257000001,0.15519430428333336,Status Waiting for Customer
+1246,Status Working,51.703763583000004,0.8617293930500001,Status Working
+1247,Created.,27.895664358999998,0.46492773931666664,Created.
+1247,Status Escalated,9.275047466,0.15458412443333333,Status Escalated
+1247,Status In Progress,14.455829365,0.24093048941666667,Status In Progress
+1247,Status On Hold,7.0730171020000006,0.11788361836666668,Status On Hold
+1247,Status Response Received,18.319246162,0.30532076936666663,Status Response Received
+1247,Status Waiting for Customer,3.520081292,0.05866802153333333,Status Waiting for Customer
+1247,Status Working,2.903877711,0.04839796185,Status Working
+1248,Created.,1.173331917,0.01955553195,Created.
+1248,Status Escalated,5.2249323,0.087082205,Status Escalated
+1248,Status In Progress,20.390101872,0.33983503119999997,Status In Progress
+1248,Status On Hold,4.104192211,0.06840320351666666,Status On Hold
+1248,Status Response Received,93.359244553,1.5559874092166666,Status Response Received
+1248,Status Waiting for Customer,20.196661528,0.33661102546666666,Status Waiting for Customer
+1248,Status Working,1.558551304,0.025975855066666668,Status Working
+1249,Created.,6.557052135,0.10928420225,Created.
+1249,Status Escalated,53.125945318999996,0.8854324219833333,Status Escalated
+1249,Status In Progress,10.289430523,0.17149050871666666,Status In Progress
+1249,Status On Hold,4.352064828,0.07253441379999999,Status On Hold
+1249,Status Response Received,0.291186791,0.004853113183333333,Status Response Received
+1249,Status Waiting for Customer,17.521938384000002,0.29203230640000005,Status Waiting for Customer
+1249,Status Working,22.6316624,0.37719437333333333,Status Working
+1250,Created.,16.483474233,0.27472457055,Created.
+1250,Status Escalated,48.265272909,0.80442121515,Status Escalated
+1250,Status In Progress,0.908171444,0.015136190733333334,Status In Progress
+1250,Status On Hold,2.337502963,0.03895838271666666,Status On Hold
+1250,Status Response Received,27.330929391,0.45551548985,Status Response Received
+1250,Status Waiting for Customer,24.384556523,0.4064092753833333,Status Waiting for Customer
+1250,Status Working,2.9350110579999997,0.04891685096666666,Status Working
+1251,Created.,7.949132971000001,0.1324855495166667,Created.
+1251,Status In Progress,5.249215489999999,0.08748692483333333,Status In Progress
+1251,Status On Hold,2.331057065,0.038850951083333335,Status On Hold
+1251,Status Response Received,84.55764195600001,1.4092940326000003,Status Response Received
+1251,Status Waiting for Customer,28.07470494,0.467911749,Status Waiting for Customer
+1251,Status Working,23.136211406,0.3856035234333334,Status Working
+1252,Created.,26.617028431,0.4436171405166667,Created.
+1252,Status Escalated,29.187771635999997,0.48646286059999994,Status Escalated
+1252,Status In Progress,6.756956775,0.11261594625,Status In Progress
+1252,Status On Hold,13.711268045,0.22852113408333335,Status On Hold
+1252,Status Response Received,15.237525882,0.2539587647,Status Response Received
+1252,Status Waiting for Customer,5.9821489869999995,0.09970248311666666,Status Waiting for Customer
+1252,Status Working,0.72521507,0.012086917833333332,Status Working
+1253,Created.,0.510713258,0.008511887633333333,Created.
+1253,Status Escalated,0.873731024,0.014562183733333334,Status Escalated
+1253,Status In Progress,9.045201919,0.15075336531666667,Status In Progress
+1253,Status On Hold,14.696323762,0.24493872936666666,Status On Hold
+1253,Status Response Received,24.05124333,0.4008540555,Status Response Received
+1253,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1253,Status Working,0.305835759,0.00509726265,Status Working
+1254,Created.,7.238684902999999,0.12064474838333332,Created.
+1254,Status Escalated,4.211753622,0.0701958937,Status Escalated
+1254,Status In Progress,1.538319795,0.025638663250000002,Status In Progress
+1254,Status On Hold,16.194053839,0.26990089731666667,Status On Hold
+1254,Status Response Received,33.908615056,0.5651435842666667,Status Response Received
+1254,Status Waiting for Customer,18.495506716,0.3082584452666667,Status Waiting for Customer
+1254,Status Working,1.620249508,0.027004158466666664,Status Working
+1255,Created.,50.583950919,0.84306584865,Created.
+1255,Status Escalated,93.282886479,1.55471477465,Status Escalated
+1255,Status In Progress,35.498692594,0.5916448765666666,Status In Progress
+1255,Status On Hold,12.275863263,0.20459772105,Status On Hold
+1255,Status Response Received,11.21622197,0.18693703283333332,Status Response Received
+1255,Status Waiting for Customer,15.522954356,0.2587159059333333,Status Waiting for Customer
+1255,Status Working,0.478302228,0.0079717038,Status Working
+1256,Created.,37.13507141,0.6189178568333333,Created.
+1256,Status Escalated,3.147156358,0.05245260596666667,Status Escalated
+1256,Status In Progress,35.209895855,0.5868315975833334,Status In Progress
+1256,Status On Hold,16.753547213,0.2792257868833333,Status On Hold
+1256,Status Response Received,6.6572729299999995,0.11095454883333332,Status Response Received
+1256,Status Waiting for Customer,16.797891026000002,0.27996485043333336,Status Waiting for Customer
+1256,Status Working,0.0,0.0,Status Working
+1257,Created.,6.273399745,0.10455666241666667,Created.
+1257,Status Escalated,15.26264955,0.2543774925,Status Escalated
+1257,Status In Progress,6.9442556159999995,0.1157375936,Status In Progress
+1257,Status On Hold,2.952717227,0.04921195378333333,Status On Hold
+1257,Status Response Received,15.330410446,0.2555068407666667,Status Response Received
+1257,Status Waiting for Customer,0.596362975,0.009939382916666666,Status Waiting for Customer
+1257,Status Working,22.095815418,0.3682635903,Status Working
+1258,Created.,11.064772653,0.18441287755,Created.
+1258,Status Escalated,3.990638732,0.06651064553333333,Status Escalated
+1258,Status In Progress,6.352557216,0.1058759536,Status In Progress
+1258,Status On Hold,12.198185085,0.20330308475,Status On Hold
+1258,Status Response Received,27.400775031000002,0.45667958385,Status Response Received
+1258,Status Waiting for Customer,10.908974048000001,0.18181623413333334,Status Waiting for Customer
+1258,Status Working,44.270260224,0.7378376703999999,Status Working
+1259,Created.,21.371410001999998,0.3561901667,Created.
+1259,Status Escalated,4.070245493,0.06783742488333333,Status Escalated
+1259,Status In Progress,0.0,0.0,Status In Progress
+1259,Status On Hold,3.09591624,0.051598604000000006,Status On Hold
+1259,Status Response Received,26.686266793,0.4447711132166667,Status Response Received
+1259,Status Waiting for Customer,1.318088252,0.02196813753333333,Status Waiting for Customer
+1259,Status Working,2.529378967,0.04215631611666667,Status Working
+1260,Created.,0.194204687,0.0032367447833333333,Created.
+1260,Status Escalated,1.699482783,0.028324713050000002,Status Escalated
+1260,Status In Progress,1.38662115,0.0231103525,Status In Progress
+1260,Status On Hold,12.938915682000001,0.21564859470000003,Status On Hold
+1260,Status Response Received,11.81913081,0.19698551350000001,Status Response Received
+1260,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1260,Status Working,15.002685169,0.25004475281666666,Status Working
+1261,Created.,29.720048954,0.4953341492333333,Created.
+1261,Status Escalated,12.81063566,0.21351059433333336,Status Escalated
+1261,Status In Progress,0.0,0.0,Status In Progress
+1261,Status On Hold,6.487912210999999,0.10813187018333333,Status On Hold
+1261,Status Response Received,9.305747711,0.15509579518333333,Status Response Received
+1261,Status Waiting for Customer,16.951541384000002,0.28252568973333336,Status Waiting for Customer
+1261,Status Working,47.603726995,0.7933954499166667,Status Working
+1262,Created.,27.701219098,0.46168698496666666,Created.
+1262,Status Escalated,16.763328807999997,0.2793888134666666,Status Escalated
+1262,Status In Progress,8.252273662,0.13753789436666666,Status In Progress
+1262,Status On Hold,6.2711024140000005,0.10451837356666667,Status On Hold
+1262,Status Response Received,81.759752755,1.3626625459166666,Status Response Received
+1262,Status Waiting for Customer,7.260215839000001,0.12100359731666668,Status Waiting for Customer
+1262,Status Working,0.881315086,0.014688584766666667,Status Working
+1263,Created.,0.725829566,0.012097159433333334,Created.
+1263,Status Escalated,5.425184916,0.0904197486,Status Escalated
+1263,Status In Progress,1.3620810859999999,0.022701351433333333,Status In Progress
+1263,Status On Hold,6.451210522,0.10752017536666666,Status On Hold
+1263,Status Response Received,22.27703025,0.3712838375,Status Response Received
+1263,Status Waiting for Customer,39.13657448,0.6522762413333333,Status Waiting for Customer
+1263,Status Working,0.0,0.0,Status Working
+1264,Created.,25.127008327000002,0.4187834721166667,Created.
+1264,Status Escalated,8.941402333,0.14902337221666664,Status Escalated
+1264,Status In Progress,2.5178905879999998,0.04196484313333333,Status In Progress
+1264,Status On Hold,15.453565813,0.25755943021666666,Status On Hold
+1264,Status Response Received,0.0,0.0,Status Response Received
+1264,Status Waiting for Customer,12.397606007,0.20662676678333333,Status Waiting for Customer
+1264,Status Working,39.034343335,0.6505723889166667,Status Working
+1265,Created.,5.502822871,0.09171371451666667,Created.
+1265,Status Escalated,17.92169764,0.2986949606666667,Status Escalated
+1265,Status In Progress,27.84989997,0.4641649995,Status In Progress
+1265,Status On Hold,3.1348432539999997,0.052247387566666664,Status On Hold
+1265,Status Response Received,1.539097954,0.02565163256666667,Status Response Received
+1265,Status Waiting for Customer,6.820332635,0.11367221058333334,Status Waiting for Customer
+1265,Status Working,0.475353676,0.007922561266666666,Status Working
+1266,Created.,20.374163622,0.3395693937,Created.
+1266,Status Escalated,20.107212471,0.33512020785,Status Escalated
+1266,Status In Progress,2.396891888,0.03994819813333333,Status In Progress
+1266,Status On Hold,3.572657662,0.05954429436666667,Status On Hold
+1266,Status Response Received,22.391213332,0.3731868888666667,Status Response Received
+1266,Status Waiting for Customer,25.55195974,0.42586599566666666,Status Waiting for Customer
+1266,Status Working,0.604955702,0.010082595033333334,Status Working
+1267,Created.,0.497220261,0.00828700435,Created.
+1267,Status Escalated,0.230894278,0.003848237966666667,Status Escalated
+1267,Status In Progress,0.660730846,0.011012180766666666,Status In Progress
+1267,Status On Hold,13.863389526999999,0.23105649211666665,Status On Hold
+1267,Status Response Received,24.51941727,0.4086569545,Status Response Received
+1267,Status Waiting for Customer,11.180239942,0.18633733236666666,Status Waiting for Customer
+1267,Status Working,1.910713426,0.03184522376666667,Status Working
+1268,Created.,11.674582919,0.19457638198333335,Created.
+1268,Status Escalated,9.828703164,0.1638117194,Status Escalated
+1268,Status In Progress,8.684285967000001,0.14473809945000002,Status In Progress
+1268,Status On Hold,11.884379237000001,0.19807298728333336,Status On Hold
+1268,Status Response Received,25.93740674,0.4322901123333333,Status Response Received
+1268,Status Waiting for Customer,9.324968938000001,0.1554161489666667,Status Waiting for Customer
+1268,Status Working,0.946175882,0.015769598033333335,Status Working
+1269,Created.,33.967860874,0.5661310145666667,Created.
+1269,Status Escalated,12.41182002,0.206863667,Status Escalated
+1269,Status In Progress,7.231291177,0.12052151961666667,Status In Progress
+1269,Status On Hold,5.364661524,0.0894110254,Status On Hold
+1269,Status Response Received,6.955266331,0.11592110551666666,Status Response Received
+1269,Status Waiting for Customer,2.178134516,0.03630224193333333,Status Waiting for Customer
+1269,Status Working,3.4190920360000003,0.05698486726666667,Status Working
+1270,Created.,24.850827818,0.41418046363333333,Created.
+1270,Status Escalated,9.722920706,0.16204867843333334,Status Escalated
+1270,Status In Progress,8.582356819000001,0.14303928031666668,Status In Progress
+1270,Status On Hold,5.588782328000001,0.09314637213333335,Status On Hold
+1270,Status Response Received,165.092225933,2.7515370988833334,Status Response Received
+1270,Status Waiting for Customer,1.099777967,0.018329632783333334,Status Waiting for Customer
+1270,Status Working,2.4406446610000003,0.04067741101666667,Status Working
+1271,Created.,10.270610268,0.1711768378,Created.
+1271,Status Escalated,1.722572063,0.028709534383333336,Status Escalated
+1271,Status In Progress,11.211145006999999,0.1868524167833333,Status In Progress
+1271,Status On Hold,5.546245177,0.09243741961666667,Status On Hold
+1271,Status Response Received,81.849673178,1.3641612196333335,Status Response Received
+1271,Status Waiting for Customer,7.63261026,0.127210171,Status Waiting for Customer
+1271,Status Working,9.475790383,0.15792983971666666,Status Working
+1272,Created.,33.276707963,0.5546117993833334,Created.
+1272,Status Escalated,4.713222995,0.07855371658333334,Status Escalated
+1272,Status In Progress,13.649584307,0.22749307178333333,Status In Progress
+1272,Status On Hold,7.236812457999999,0.12061354096666665,Status On Hold
+1272,Status Response Received,0.819995644,0.013666594066666668,Status Response Received
+1272,Status Waiting for Customer,26.445376472,0.4407562745333333,Status Waiting for Customer
+1272,Status Working,16.249536463,0.27082560771666664,Status Working
+1273,Created.,1.110281697,0.01850469495,Created.
+1273,Status Escalated,0.619470925,0.010324515416666668,Status Escalated
+1273,Status In Progress,8.085216372,0.1347536062,Status In Progress
+1273,Status On Hold,3.76285674,0.062714279,Status On Hold
+1273,Status Response Received,95.146614383,1.5857769063833334,Status Response Received
+1273,Status Waiting for Customer,5.195399671,0.08658999451666666,Status Waiting for Customer
+1273,Status Working,1.935400989,0.03225668315,Status Working
+1274,Created.,43.122767401000004,0.7187127900166668,Created.
+1274,Status Escalated,18.273905666,0.30456509443333335,Status Escalated
+1274,Status In Progress,1.875372553,0.03125620921666667,Status In Progress
+1274,Status On Hold,7.830011598,0.13050019329999998,Status On Hold
+1274,Status Response Received,18.391396480999997,0.3065232746833333,Status Response Received
+1274,Status Waiting for Customer,3.127641397,0.05212735661666667,Status Waiting for Customer
+1274,Status Working,4.249865077,0.07083108461666666,Status Working
+1275,Created.,2.6456715429999997,0.04409452571666666,Created.
+1275,Status Escalated,12.249386801,0.20415644668333333,Status Escalated
+1275,Status In Progress,3.554317047,0.05923861745,Status In Progress
+1275,Status On Hold,1.172158609,0.01953597681666667,Status On Hold
+1275,Status Response Received,0.0,0.0,Status Response Received
+1275,Status Waiting for Customer,6.84947504,0.11415791733333333,Status Waiting for Customer
+1275,Status Working,2.388914462,0.03981524103333333,Status Working
+1276,Created.,2.9630461329999997,0.04938410221666666,Created.
+1276,Status Escalated,2.188407735,0.036473462250000005,Status Escalated
+1276,Status In Progress,0.94756046,0.015792674333333333,Status In Progress
+1276,Status On Hold,6.764505836,0.11274176393333332,Status On Hold
+1276,Status Response Received,4.091488156,0.06819146926666667,Status Response Received
+1276,Status Waiting for Customer,11.883576701,0.19805961168333336,Status Waiting for Customer
+1276,Status Working,0.441443602,0.007357393366666667,Status Working
+1277,Created.,5.5997907719999995,0.0933298462,Created.
+1277,Status Escalated,23.662985775,0.39438309625,Status Escalated
+1277,Status In Progress,25.115834126000003,0.4185972354333334,Status In Progress
+1277,Status On Hold,4.832375812,0.08053959686666667,Status On Hold
+1277,Status Response Received,18.150578069999998,0.30250963449999996,Status Response Received
+1277,Status Waiting for Customer,30.298758658,0.5049793109666667,Status Waiting for Customer
+1277,Status Working,2.57862235,0.04297703916666666,Status Working
+1278,Created.,3.998753525,0.06664589208333334,Created.
+1278,Status Escalated,4.742259007,0.07903765011666668,Status Escalated
+1278,Status In Progress,5.758023495,0.09596705825,Status In Progress
+1278,Status On Hold,9.691800166,0.16153000276666668,Status On Hold
+1278,Status Response Received,4.865948553,0.08109914255,Status Response Received
+1278,Status Waiting for Customer,44.327752336,0.7387958722666668,Status Waiting for Customer
+1278,Status Working,9.38454164,0.15640902733333334,Status Working
+1279,Created.,3.735175447,0.06225292411666667,Created.
+1279,Status Escalated,3.788680652,0.06314467753333333,Status Escalated
+1279,Status In Progress,30.355567678,0.5059261279666667,Status In Progress
+1279,Status On Hold,9.554824589999999,0.15924707649999997,Status On Hold
+1279,Status Response Received,19.752835852,0.32921393086666667,Status Response Received
+1279,Status Waiting for Customer,17.164196909,0.28606994848333334,Status Waiting for Customer
+1279,Status Working,0.198705762,0.0033117627,Status Working
+1280,Created.,36.681972016,0.6113662002666668,Created.
+1280,Status Escalated,3.108109246,0.051801820766666666,Status Escalated
+1280,Status In Progress,12.936708855000001,0.21561181425,Status In Progress
+1280,Status On Hold,6.400870342,0.10668117236666667,Status On Hold
+1280,Status Response Received,12.848166723000002,0.21413611205000002,Status Response Received
+1280,Status Waiting for Customer,16.838488341,0.28064147235000003,Status Waiting for Customer
+1280,Status Working,0.212782315,0.0035463719166666666,Status Working
+1281,Created.,14.027410366,0.23379017276666667,Created.
+1281,Status Escalated,2.24292992,0.037382165333333335,Status Escalated
+1281,Status In Progress,22.394240057,0.37323733428333333,Status In Progress
+1281,Status On Hold,10.458692613,0.17431154355,Status On Hold
+1281,Status Response Received,14.496100392999999,0.24160167321666665,Status Response Received
+1281,Status Waiting for Customer,4.652015832,0.0775335972,Status Waiting for Customer
+1281,Status Working,43.90397655,0.7317329425000001,Status Working
+1282,Created.,6.919961165,0.11533268608333333,Created.
+1282,Status Escalated,96.31779590400001,1.6052965984,Status Escalated
+1282,Status In Progress,2.40269097,0.0400448495,Status In Progress
+1282,Status On Hold,2.306152578,0.0384358763,Status On Hold
+1282,Status Response Received,47.898352924,0.7983058820666666,Status Response Received
+1282,Status Waiting for Customer,3.608749632,0.060145827199999995,Status Waiting for Customer
+1282,Status Working,21.219939890000003,0.3536656648333334,Status Working
+1283,Created.,24.771665097,0.41286108495,Created.
+1283,Status Escalated,14.421734119,0.24036223531666667,Status Escalated
+1283,Status In Progress,26.012070616,0.4335345102666667,Status In Progress
+1283,Status On Hold,1.645937391,0.02743228985,Status On Hold
+1283,Status Response Received,0.8729830599999999,0.014549717666666665,Status Response Received
+1283,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1283,Status Working,22.56869155,0.3761448591666667,Status Working
+1284,Created.,29.488225268,0.49147042113333334,Created.
+1284,Status Escalated,10.154187577,0.16923645961666667,Status Escalated
+1284,Status In Progress,16.507078561,0.27511797601666665,Status In Progress
+1284,Status On Hold,11.54320459,0.19238674316666668,Status On Hold
+1284,Status Response Received,14.93167572,0.248861262,Status Response Received
+1284,Status Waiting for Customer,21.961402471,0.36602337451666667,Status Waiting for Customer
+1284,Status Working,16.412689012999998,0.2735448168833333,Status Working
+1285,Created.,6.939090426,0.1156515071,Created.
+1285,Status Escalated,1.6126461829999998,0.02687743638333333,Status Escalated
+1285,Status In Progress,13.841733132,0.2306955522,Status In Progress
+1285,Status On Hold,2.63898589,0.043983098166666665,Status On Hold
+1285,Status Response Received,23.096512739,0.3849418789833334,Status Response Received
+1285,Status Waiting for Customer,0.0,0.0,Status Waiting for Customer
+1285,Status Working,27.136050962,0.4522675160333333,Status Working
+1286,Created.,8.956431592,0.14927385986666666,Created.
+1286,Status In Progress,0.21617943,0.0036029905,Status In Progress
+1286,Status On Hold,6.273055756,0.10455092926666666,Status On Hold
+1286,Status Response Received,2.864907473,0.04774845788333334,Status Response Received
+1286,Status Waiting for Customer,18.226976672,0.3037829445333333,Status Waiting for Customer
+1286,Status Working,1.116144675,0.01860241125,Status Working
+1287,Created.,30.12603967,0.5021006611666666,Created.
+1287,Status Escalated,22.090133290000004,0.36816888816666676,Status Escalated
+1287,Status In Progress,6.342884192,0.10571473653333333,Status In Progress
+1287,Status On Hold,6.2320879410000005,0.10386813235,Status On Hold
+1287,Status Response Received,1.778176419,0.02963627365,Status Response Received
+1287,Status Waiting for Customer,8.300698303,0.13834497171666668,Status Waiting for Customer
+1287,Status Working,5.596314330999999,0.09327190551666666,Status Working
+1288,Created.,42.155316389999996,0.7025886064999999,Created.
+1288,Status Escalated,4.580482354000001,0.07634137256666668,Status Escalated
+1288,Status In Progress,14.81395093,0.24689918216666668,Status In Progress
+1288,Status On Hold,9.106043894,0.15176739823333335,Status On Hold
+1288,Status Response Received,20.942652524,0.3490442087333333,Status Response Received
+1288,Status Waiting for Customer,4.280849555,0.07134749258333332,Status Waiting for Customer
+1288,Status Working,0.799388877,0.013323147950000001,Status Working
+1289,Created.,14.864603186,0.24774338643333332,Created.
+1289,Status Escalated,15.084496425,0.25140827374999997,Status Escalated
+1289,Status In Progress,4.293793711,0.07156322851666667,Status In Progress
+1289,Status On Hold,18.407591947,0.3067931991166667,Status On Hold
+1289,Status Response Received,38.423373046,0.6403895507666667,Status Response Received
+1289,Status Waiting for Customer,0.437683621,0.007294727016666667,Status Waiting for Customer
+1289,Status Working,12.436999255,0.20728332091666665,Status Working
+1290,Created.,24.649819486000002,0.4108303247666667,Created.
+1290,Status Escalated,11.337618896999999,0.18896031494999999,Status Escalated
+1290,Status In Progress,6.568135653,0.10946892755,Status In Progress
+1290,Status On Hold,11.208519072,0.18680865119999998,Status On Hold
+1290,Status Response Received,9.278095262,0.15463492103333334,Status Response Received
+1290,Status Waiting for Customer,13.25464426,0.22091073766666666,Status Waiting for Customer
+1290,Status Working,1.111160078,0.018519334633333332,Status Working
+1291,Created.,36.599471946,0.6099911991,Created.
+1291,Status Escalated,8.302365867,0.13837276445000002,Status Escalated
+1291,Status In Progress,2.19493039,0.03658217316666667,Status In Progress
+1291,Status On Hold,3.2983142819999998,0.0549719047,Status On Hold
+1291,Status Response Received,1.9829849480000001,0.033049749133333334,Status Response Received
+1291,Status Waiting for Customer,16.022086592,0.26703477653333335,Status Waiting for Customer
+1291,Status Working,2.620859644,0.043680994066666666,Status Working
+1292,Created.,1.468198324,0.02446997206666667,Created.
+1292,Status Escalated,56.974747820000005,0.9495791303333334,Status Escalated
+1292,Status In Progress,26.340954034,0.4390159005666667,Status In Progress
+1292,Status On Hold,3.595668538,0.05992780896666667,Status On Hold
+1292,Status Response Received,14.621115563,0.24368525938333332,Status Response Received
+1292,Status Waiting for Customer,33.713631472,0.5618938578666667,Status Waiting for Customer
+1292,Status Working,0.0,0.0,Status Working
+1293,Created.,36.520910838,0.6086818473,Created.
+1293,Status Escalated,2.289492134,0.038158202233333334,Status Escalated
+1293,Status In Progress,7.742064949,0.12903441581666666,Status In Progress
+1293,Status On Hold,2.646739264,0.04411232106666666,Status On Hold
+1293,Status Response Received,17.817631300000002,0.2969605216666667,Status Response Received
+1293,Status Waiting for Customer,0.529140933,0.00881901555,Status Waiting for Customer
+1293,Status Working,24.08471439,0.40141190649999997,Status Working
+1294,Status In Progress,0.0,0.0,Status In Progress
+1294,Status On Hold,6.229368461,0.10382280768333334,Status On Hold
+1294,Status Response Received,27.09547701,0.4515912835,Status Response Received
+1294,Status Waiting for Customer,0.212840097,0.00354733495,Status Waiting for Customer
+1294,Status Working,1.184993374,0.019749889566666668,Status Working
+1295,Created.,6.394642577,0.10657737628333333,Created.
+1295,Status Escalated,51.423074592,0.8570512432,Status Escalated
+1295,Status In Progress,1.294215106,0.021570251766666666,Status In Progress
+1295,Status Response Received,0.752975233,0.012549587216666666,Status Response Received
+1295,Status Waiting for Customer,4.694966953,0.07824944921666667,Status Waiting for Customer
+1295,Status Working,0.0,0.0,Status Working
+1296,Created.,5.919471878,0.09865786463333334,Created.
+1296,Status Escalated,0.595420267,0.009923671116666666,Status Escalated
+1296,Status In Progress,2.236140876,0.0372690146,Status In Progress
+1296,Status On Hold,6.136281886,0.10227136476666666,Status On Hold
+1296,Status Response Received,0.557259657,0.00928766095,Status Response Received
+1296,Status Waiting for Customer,15.210478821999999,0.25350798036666666,Status Waiting for Customer
+1297,Created.,13.16395377,0.21939922950000001,Created.
+1297,Status In Progress,0.0,0.0,Status In Progress
+1297,Status On Hold,0.541818763,0.009030312716666666,Status On Hold
+1297,Status Waiting for Customer,3.770330982,0.0628388497,Status Waiting for Customer
+1297,Status Working,0.0,0.0,Status Working
+1298,Status Escalated,1.28679746,0.021446624333333334,Status Escalated
+1298,Status In Progress,0.0,0.0,Status In Progress
+1298,Status On Hold,0.0,0.0,Status On Hold
+1299,Created.,14.80071739,0.2466786231666667,Created.
+1299,Status Escalated,53.567221165999996,0.8927870194333333,Status Escalated
+1299,Status In Progress,0.566036797,0.009433946616666666,Status In Progress
+1299,Status On Hold,0.0,0.0,Status On Hold
+1299,Status Waiting for Customer,5.931105336,0.0988517556,Status Waiting for Customer
+1299,Status Working,0.0,0.0,Status Working
+1300,Created.,31.262014999999998,0.5210335833333333,Created.
+1300,Status Escalated,47.66999078,0.7944998463333334,Status Escalated
+1300,Status In Progress,11.488161848,0.19146936413333335,Status In Progress
+1300,Status On Hold,1.078457331,0.017974288850000002,Status On Hold
+1300,Status Waiting for Customer,4.885352674,0.08142254456666667,Status Waiting for Customer
+1300,Status Working,0.0,0.0,Status Working
+1301,Status On Hold,0.563448747,0.009390812450000001,Status On Hold

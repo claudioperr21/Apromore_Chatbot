@@ -41,10 +41,21 @@ except ImportError:
     OPENAI_AVAILABLE = False
     print("[WARNING] OpenAI not available. Chat features will be limited.")
 
+# Try to import comprehensive analytics
+try:
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'backend'))
+    from comprehensive_analytics import ComprehensiveAnalyticsReader
+    COMPREHENSIVE_ANALYTICS_AVAILABLE = True
+except ImportError as e:
+    COMPREHENSIVE_ANALYTICS_AVAILABLE = False
+    print(f"[WARNING] Comprehensive analytics not available: {e}")
+
 # -------------------------------
 # Configuration
 # -------------------------------
-BASE_DIR = r"C:\Users\claud\OneDrive\Desktop\ESADE\Masters in Busienss Analytics\Apromore In-company project\Apromore Chatbot\Data Sources"
+# Use relative path from the script location
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.join(SCRIPT_DIR, "Data Sources")
 
 SALESFORCE_FILE = "SalesforceOffice_synthetic_varied_100users_V1_with_teams.csv"
 AMADEUS_FILE = "amadeus-demo-full-no-fields.csv"
@@ -84,6 +95,29 @@ def save_chart(chart: alt.Chart, name: str) -> Dict[str, str]:
 def fmt(msg: str) -> str:
     return textwrap.fill(msg, width=100)
 
+def append_facts_block(text: str, dataset: str, filters: Dict[str, Any], metrics: Dict[str, Any]) -> str:
+    """
+    Append machine-readable facts block to analysis text
+    
+    Args:
+        text: Original text
+        dataset: Dataset identifier
+        filters: Applied filters
+        metrics: Computed metrics
+    
+    Returns:
+        Text with appended facts block
+    """
+    facts = {
+        "dataset": dataset,
+        "filters": filters,
+        "metrics": metrics
+    }
+    
+    facts_json = json.dumps(facts, indent=2)
+    
+    return f"{text}\n\n```facts\n{facts_json}\n```"
+
 # -------------------------------
 # Enhanced AI Chat Interface with Creative Responses
 # -------------------------------
@@ -107,7 +141,10 @@ class CreativeDataChatBot:
             "common", "frequent", "rare", "unusual",
             "bottleneck", "bottlenecks", "some", "types",
             "insights", "analysis", "patterns", "trends",
-            "recommendations", "suggestions", "improvements"
+            "recommendations", "suggestions", "improvements",
+            # Comprehensive analytics keywords
+            "aging", "flow efficiency", "handoff", "handoffs",
+            "interaction", "interactions", "comprehensive"
         ]
         
         # Check if query contains chat indicators
@@ -242,6 +279,16 @@ class CreativeDataChatBot:
         # Get current agent
         agent = self.salesforce_agent if self.current_dataset == "salesforce" else self.amadeus_agent
         df = agent.df
+        
+        # Check for comprehensive analytics queries first
+        if hasattr(agent, 'analytics_reader') and agent.analytics_reader:
+            if any(word in query_lower for word in ["aging", "flow efficiency", "handoff", "handoffs", "interaction", "comprehensive"]):
+                try:
+                    result = agent.handle(query)
+                    return result.get("text", "No analytics response available.")
+                except Exception as e:
+                    print(f"[ERROR] Analytics query failed: {e}")
+                    # Fall through to regular handling
         
         # Handle specific question patterns
         if any(word in query_lower for word in ["who", "most active", "busiest", "active user", "prevalent"]):
@@ -462,6 +509,16 @@ class SalesforceAgent(Agent):
         
         if self.duration_col and not pd.api.types.is_numeric_dtype(self.df[self.duration_col]):
             self.df[self.duration_col] = pd.to_numeric(self.df[self.duration_col], errors="coerce")
+        
+        # Initialize comprehensive analytics reader
+        if COMPREHENSIVE_ANALYTICS_AVAILABLE:
+            try:
+                self.analytics_reader = ComprehensiveAnalyticsReader()
+            except Exception as e:
+                print(f"[WARNING] Could not initialize analytics reader: {e}")
+                self.analytics_reader = None
+        else:
+            self.analytics_reader = None
 
     def summary(self) -> Dict[str, Any]:
         n_rows = len(self.df)
@@ -476,6 +533,15 @@ class SalesforceAgent(Agent):
             f"- teams: {n_teams}\n"
             f"- avg duration (s): {round(duration_mean,2) if duration_mean is not None else 'n/a'}"
         )
+        
+        # Append facts block
+        metrics = {
+            "case_count": n_rows,
+            "unique_users": n_users,
+            "unique_teams": n_teams,
+            "avg_duration_seconds": round(duration_mean, 2) if duration_mean else None
+        }
+        text = append_facts_block(text, "sf", {}, metrics)
         
         if self.user_col and self.duration_col:
             agg = (
@@ -516,6 +582,18 @@ class SalesforceAgent(Agent):
             .sort_values(self.duration_col, ascending=False)
             .head(20)
         )
+        
+        # Prepare metrics for facts block
+        top_activity = agg.iloc[0][self.activity_col] if len(agg) > 0 else None
+        top_duration = agg.iloc[0][self.duration_col] if len(agg) > 0 else None
+        
+        metrics = {
+            "bottleneck_count": len(agg),
+            "top_bottleneck_activity": str(top_activity) if top_activity else None,
+            "top_bottleneck_duration": round(float(top_duration), 2) if top_duration else None,
+            "excluded_completed_tasks": len(completed_tasks)
+        }
+        
         chart = (
             alt.Chart(agg)
             .mark_bar()
@@ -527,7 +605,10 @@ class SalesforceAgent(Agent):
             )
             .properties(title="Top Activity Bottlenecks (Avg Duration) - Active Tasks Only", width=600, height=400)
         )
+        
         text = "These activities have the highest average durations; consider standardizing steps or automating repeated inputs. (Completed tasks excluded from analysis.)"
+        text = append_facts_block(text, "sf", {}, metrics)
+        
         return {"text": text, "chart": chart}
 
     def identify_completed_tasks(self, df, activity_col):
@@ -611,8 +692,21 @@ class SalesforceAgent(Agent):
 
     def handle(self, query: str) -> Dict[str, Any]:
         q = query.lower()
+        
+        # Check for comprehensive analytics queries
+        if self.analytics_reader and any(word in q for word in ["aging", "flow efficiency", "handoff", "interaction", "comprehensive"]):
+            try:
+                analytics_response = self.analytics_reader.query_analytics(query, "salesforce")
+                return {"text": analytics_response}
+            except Exception as e:
+                print(f"[ERROR] Comprehensive analytics query failed: {e}")
+                # Fall through to regular handling
+        
         if "help" in q:
-            return {"text": self.help()}
+            help_text = self.help()
+            if self.analytics_reader:
+                help_text += "\n\nAdvanced Analytics:\n  - 'case aging analysis'\n  - 'flow efficiency report'\n  - 'team handoff analysis'\n  - 'interaction patterns'\n  - 'comprehensive summary'"
+            return {"text": help_text}
         if "summary" in q:
             return self.summary()
         if "bottleneck" in q:
@@ -634,7 +728,12 @@ class SalesforceAgent(Agent):
                 paths = save_chart(result["chart"], f"salesforce_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
                 result["text"] = f"{result.get('text','Chart saved')} | HTML: {paths['html']} | Vega-Lite JSON: {paths['vegalite']}"
             return result
-        return {"text": "Salesforce agent: try 'summary', 'top bottlenecks', 'team performance', 'app usage', or 'recommendations'."}
+        
+        # Default fallback
+        fallback_text = "Salesforce agent: try 'summary', 'top bottlenecks', 'team performance', 'app usage', or 'recommendations'."
+        if self.analytics_reader:
+            fallback_text += "\n\nOr ask about: case aging, flow efficiency, team handoffs, or interaction patterns."
+        return {"text": fallback_text}
 
 class AmadeusAgent(Agent):
     def __init__(self, df: pd.DataFrame):
@@ -647,6 +746,16 @@ class AmadeusAgent(Agent):
         self.process_col = find_column(df, ["process_name", "application", "process"])
         if self.duration_col and not pd.api.types.is_numeric_dtype(self.df[self.duration_col]):
             self.df[self.duration_col] = pd.to_numeric(self.df[self.duration_col], errors="coerce")
+        
+        # Initialize comprehensive analytics reader
+        if COMPREHENSIVE_ANALYTICS_AVAILABLE:
+            try:
+                self.analytics_reader = ComprehensiveAnalyticsReader()
+            except Exception as e:
+                print(f"[WARNING] Could not initialize analytics reader: {e}")
+                self.analytics_reader = None
+        else:
+            self.analytics_reader = None
 
     def summary(self) -> Dict[str, Any]:
         n_rows = len(self.df)
@@ -732,8 +841,21 @@ class AmadeusAgent(Agent):
 
     def handle(self, query: str) -> Dict[str, Any]:
         q = query.lower()
+        
+        # Check for comprehensive analytics queries
+        if self.analytics_reader and any(word in q for word in ["aging", "flow efficiency", "handoff", "interaction", "comprehensive"]):
+            try:
+                analytics_response = self.analytics_reader.query_analytics(query, "amadeus")
+                return {"text": analytics_response}
+            except Exception as e:
+                print(f"[ERROR] Comprehensive analytics query failed: {e}")
+                # Fall through to regular handling
+        
         if "help" in q:
-            return {"text": self.help()}
+            help_text = self.help()
+            if self.analytics_reader:
+                help_text += "\n\nAdvanced Analytics:\n  - 'case aging analysis'\n  - 'flow efficiency report'\n  - 'resource interaction patterns'\n  - 'comprehensive summary'"
+            return {"text": help_text}
         if "summary" in q:
             return self.summary()
         if "bottleneck" in q:
@@ -746,7 +868,12 @@ class AmadeusAgent(Agent):
                 paths = save_chart(result["chart"], f"amadeus_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
                 result["text"] = f"{result.get('text','Chart saved')} | HTML: {paths['html']} | Vega-Lite JSON: {paths['vegalite']}"
             return result
-        return {"text": "Amadeus agent: try 'summary', 'top bottlenecks', or 'recommendations'."}
+        
+        # Default fallback
+        fallback_text = "Amadeus agent: try 'summary', 'top bottlenecks', or 'recommendations'."
+        if self.analytics_reader:
+            fallback_text += "\n\nOr ask about: case aging, flow efficiency, or resource interaction patterns."
+        return {"text": fallback_text}
 
 # -------------------------------
 # Enhanced Orchestrator with Creative Chat
@@ -756,6 +883,10 @@ class CreativeOrchestrator:
         self.agents = agents
         self.active = None
         self.chatbot = CreativeDataChatBot(agents["salesforce"], agents["amadeus"])
+        
+        # Router accuracy tracking
+        self.router_selected = None
+        self.router_should_have_selected = None
 
     def select_dataset(self) -> str:
         print("\nDatasets available: [salesforce] or [amadeus].")
@@ -764,17 +895,36 @@ class CreativeOrchestrator:
             if ans in self.agents:
                 self.active = ans
                 self.chatbot.current_dataset = ans
+                self.router_selected = ans  # Track initial router selection
                 return ans
             print("Please type 'salesforce' or 'amadeus'.")
+
+    def detect_dataset_from_query(self, q: str) -> Optional[str]:
+        """Detect if query explicitly mentions a dataset"""
+        q_lower = q.lower()
+        
+        if "salesforce" in q_lower:
+            return "salesforce"
+        elif "amadeus" in q_lower:
+            return "amadeus"
+        
+        return None
 
     def route(self, q: str) -> Dict[str, Any]:
         if q.strip().lower() == "switch":
             self.active = "amadeus" if self.active == "salesforce" else "salesforce"
             self.chatbot.current_dataset = self.active
+            self.router_selected = self.active  # Update router selection
             return {"text": f"Switched to {self.active}."}
         
         if not self.active:
             self.select_dataset()
+        
+        # Check if query mentions specific dataset (for router accuracy)
+        mentioned_dataset = self.detect_dataset_from_query(q)
+        if mentioned_dataset and mentioned_dataset != self.active:
+            # User explicitly requested different dataset
+            self.router_should_have_selected = mentioned_dataset
         
         # Check if it's a chat query
         if self.chatbot.is_chat_query(q):
@@ -782,7 +932,20 @@ class CreativeOrchestrator:
             return {"text": f"🤖 {response}"}
         
         # Regular agent handling
-        return self.agents[self.active].handle(q)
+        result = self.agents[self.active].handle(q)
+        
+        # Track router accuracy
+        result["_router_selected"] = self.router_selected
+        result["_router_should_have_selected"] = self.router_should_have_selected
+        
+        return result
+    
+    def get_router_accuracy(self) -> Optional[bool]:
+        """Get current router accuracy status"""
+        if self.router_should_have_selected is None:
+            return None  # No explicit dataset mentioned
+        
+        return self.router_selected == self.router_should_have_selected
 
 def main():
     print("Welcome to the Creative Task Mining Analyst with Enhanced AI Chat!")

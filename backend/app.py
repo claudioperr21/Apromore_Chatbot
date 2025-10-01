@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify, send_file, g
 from flask_cors import CORS
 import os
 import json
@@ -17,12 +17,26 @@ from PIL import Image as PILImage
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
+import time
+from pathlib import Path
+import traceback
 
 # Import our agent classes and configuration
 import sys
 sys.path.append('..')
 from task_mining_multi_agent import SalesforceAgent, AmadeusAgent, load_csv, find_column, save_chart
 from config import get_config
+
+# Import instrumentation modules
+try:
+    from backend.schema_dict import build_schema_dict, get_schema_dict
+    from backend.kpi_verifier import verify_answer, extract_numeric_claims
+    from backend.kpi_rollup import rollup_today
+    from backend.metrics import filter_dataframe
+    INSTRUMENTATION_AVAILABLE = True
+except ImportError as e:
+    print(f"[WARNING] Instrumentation modules not available: {e}")
+    INSTRUMENTATION_AVAILABLE = False
 
 # Get configuration
 config_class = get_config()
@@ -41,8 +55,11 @@ def load_data():
     salesforce_path = config_class.SALESFORCE_PATH
     amadeus_path = config_class.AMADEUS_PATH
     
-    # Create charts directory
+    # Create necessary directories
     os.makedirs(config_class.CHARTS_DIR, exist_ok=True)
+    
+    salesforce_df = None
+    amadeus_df = None
     
     if os.path.exists(salesforce_path):
         salesforce_df = load_csv(salesforce_path)
@@ -51,6 +68,11 @@ def load_data():
     if os.path.exists(amadeus_path):
         amadeus_df = load_csv(amadeus_path)
         amadeus_agent = AmadeusAgent(amadeus_df)
+    
+    # Initialize schema dictionary for hallucination detection
+    if INSTRUMENTATION_AVAILABLE:
+        build_schema_dict(salesforce_df, amadeus_df)
+        print("[INFO] Schema dictionary initialized for hallucination detection")
 
 def chart_to_base64(chart):
     """Convert Vega-Lite chart to base64 image for PDF export"""
@@ -196,6 +218,135 @@ def chart_to_base64(chart):
         except:
             return None
 
+# -------------------------------
+# Telemetry and Instrumentation
+# -------------------------------
+
+def write_trace_log(trace_record: dict):
+    """Write trace record to JSONL file"""
+    if not config_class.ENABLE_TRACING:
+        return
+    
+    try:
+        # Create traces directory
+        traces_dir = Path(config_class.LOG_DIR)
+        traces_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Daily trace file
+        today_str = datetime.now().strftime("%Y%m%d")
+        trace_file = traces_dir / f"traces-{today_str}.jsonl"
+        
+        # Append trace record as JSONL
+        with open(trace_file, 'a', encoding='utf-8') as f:
+            f.write(json.dumps(trace_record, default=str) + '\n')
+            f.flush()
+            os.fsync(f.fileno())  # Ensure write
+    
+    except Exception as e:
+        # Fail soft - don't crash requests
+        print(f"[WARNING] Failed to write trace log: {e}")
+
+
+@app.before_request
+def before_request_telemetry():
+    """Start request timing and capture metadata"""
+    g.start_time = time.time()
+    g.start_time_model = None
+    g.request_metadata = {
+        "endpoint": request.path,
+        "method": request.method,
+        "dataset": None,
+        "intent": None,
+        "filters": {},
+        "request_bytes": len(request.get_data()) if request.get_data() else 0
+    }
+
+
+@app.after_request
+def after_request_telemetry(response):
+    """End request timing and write telemetry trace"""
+    if not config_class.ENABLE_TRACING or not hasattr(g, 'start_time'):
+        return response
+    
+    try:
+        # Calculate latency
+        latency_ms_total = (time.time() - g.start_time) * 1000
+        latency_ms_model = None
+        if hasattr(g, 'start_time_model') and g.start_time_model:
+            latency_ms_model = (time.time() - g.start_time_model) * 1000
+        
+        # Build trace record
+        trace_record = {
+            "timestamp_utc": datetime.utcnow().isoformat(),
+            "endpoint": g.request_metadata.get("endpoint"),
+            "route_version": "v1",  # Versioning for API changes
+            "dataset": g.request_metadata.get("dataset", "unknown"),
+            "intent": g.request_metadata.get("intent", "other"),
+            "filters": g.request_metadata.get("filters", {}),
+            "request_bytes": g.request_metadata.get("request_bytes", 0),
+            "response_bytes": len(response.get_data()) if response.get_data() else 0,
+            "latency_ms_total": round(latency_ms_total, 2),
+            "latency_ms_model": round(latency_ms_model, 2) if latency_ms_model else None,
+            "model_name": g.request_metadata.get("model_name"),
+            "prompt_tokens": g.request_metadata.get("prompt_tokens"),
+            "completion_tokens": g.request_metadata.get("completion_tokens"),
+            "error": g.request_metadata.get("error"),
+            "extracted_metrics": g.request_metadata.get("extracted_metrics", {}),
+            "router_selected": g.request_metadata.get("router_selected"),
+            "router_should_have_selected": g.request_metadata.get("router_should_have_selected"),
+            "router_correct": g.request_metadata.get("router_correct"),
+            "session_id": request.headers.get("X-Session-ID", "anonymous"),
+            "user_id": request.headers.get("X-User-ID"),
+            "resolved": g.request_metadata.get("resolved", False)
+        }
+        
+        # Write trace
+        write_trace_log(trace_record)
+    
+    except Exception as e:
+        # Fail soft
+        print(f"[WARNING] Telemetry error: {e}")
+    
+    return response
+
+
+def detect_intent(query: str, endpoint: str) -> str:
+    """Detect user intent from query text"""
+    query_lower = query.lower() if query else ""
+    
+    if "summary" in query_lower or endpoint.endswith("/summary"):
+        return "summary"
+    elif "recommend" in query_lower or endpoint.endswith("/recommendations"):
+        return "recommendation"
+    elif "bottleneck" in query_lower or "slow" in query_lower:
+        return "kpi_lookup"
+    elif "explain" in query_lower or "why" in query_lower or "how" in query_lower:
+        return "explanation"
+    elif "compare" in query_lower or "difference" in query_lower:
+        return "comparison"
+    else:
+        return "other"
+
+
+def extract_filters_from_request(data: dict) -> dict:
+    """Extract filter information from request data"""
+    filters = {}
+    
+    if isinstance(data, dict):
+        # Common filter fields
+        if "team" in data:
+            filters["team"] = data["team"]
+        if "resource" in data or "user" in data:
+            filters["resource"] = data.get("resource") or data.get("user")
+        if "case_id" in data:
+            filters["case_id"] = data["case_id"]
+        if "time_range" in data:
+            filters["time_range"] = data["time_range"]
+        if "filters" in data:
+            filters.update(data["filters"])
+    
+    return filters
+
 @app.route('/api/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
@@ -226,18 +377,33 @@ def get_datasets():
 
 @app.route('/api/analyze/<dataset>', methods=['POST'])
 def analyze_dataset(dataset):
-    """Analyze dataset based on query"""
+    """Analyze dataset based on query with auto-verification"""
     try:
-        data = request.get_json()
+        data = request.get_json() or {}
         query = data.get('query', 'summary')
         
+        # Update telemetry metadata
+        if hasattr(g, 'request_metadata'):
+            g.request_metadata['dataset'] = dataset
+            g.request_metadata['intent'] = detect_intent(query, request.path)
+            g.request_metadata['filters'] = extract_filters_from_request(data)
+        
         agent = None
+        df = None
         if dataset == 'salesforce' and salesforce_agent:
             agent = salesforce_agent
+            df = salesforce_agent.df
         elif dataset == 'amadeus' and amadeus_agent:
             agent = amadeus_agent
+            df = amadeus_agent.df
         else:
+            if hasattr(g, 'request_metadata'):
+                g.request_metadata['error'] = "Dataset not found"
             return jsonify({"error": "Dataset not found"}), 404
+        
+        # Execute query
+        if hasattr(g, 'start_time_model'):
+            g.start_time_model = time.time()
         
         result = agent.handle(query)
         
@@ -246,9 +412,42 @@ def analyze_dataset(dataset):
             chart_spec = result['chart'].to_dict()
             result['vega_lite_spec'] = chart_spec
         
+        # Auto-verification if instrumentation is available
+        if INSTRUMENTATION_AVAILABLE and 'text' in result:
+            answer_text = result['text']
+            
+            # Apply filters to get dataset slice
+            filters = data.get('filters', {})
+            if filters and df is not None:
+                dataset_slice = filter_dataframe(df, filters)
+            else:
+                dataset_slice = df if df is not None else pd.DataFrame()
+            
+            # Verify answer
+            verification = verify_answer(
+                answer_text, 
+                dataset_slice, 
+                dataset, 
+                filters,
+                config_class.TOLERANCE_PCT
+            )
+            
+            # Store in telemetry
+            if hasattr(g, 'request_metadata'):
+                g.request_metadata['extracted_metrics'] = verification
+                
+                # Check for hallucinations
+                schema_dict = get_schema_dict()
+                if schema_dict:
+                    hallucination_check = schema_dict.validate_references(answer_text, dataset)
+                    g.request_metadata['extracted_metrics']['hallucination_check'] = hallucination_check
+        
         return jsonify(result)
     
     except Exception as e:
+        if hasattr(g, 'request_metadata'):
+            g.request_metadata['error'] = str(e)
+        print(f"[ERROR] analyze_dataset: {e}\n{traceback.format_exc()}")
         return jsonify({"error": str(e)}), 500
 
 @app.route('/api/chart/<dataset>/<chart_type>', methods=['GET'])
@@ -455,9 +654,137 @@ def get_dataset_info(dataset):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/api/kpis/today', methods=['GET'])
+def get_kpis_today():
+    """
+    Get KPI rollup for today
+    
+    Returns aggregated KPIs without exposing raw prompts or PII
+    """
+    try:
+        if not INSTRUMENTATION_AVAILABLE:
+            return jsonify({
+                "error": "KPI instrumentation not available",
+                "trace_count": 0
+            }), 503
+        
+        # Compute today's KPI rollup
+        traces_dir = Path(config_class.LOG_DIR)
+        kpis = rollup_today(traces_dir)
+        
+        # Ensure no PII is exposed
+        # Remove any user-identifiable information if present
+        if "traces" in kpis:
+            del kpis["traces"]
+        
+        return jsonify(kpis)
+    
+    except Exception as e:
+        print(f"[ERROR] get_kpis_today: {e}\n{traceback.format_exc()}")
+        return jsonify({
+            "error": "Failed to compute KPIs",
+            "details": str(e)
+        }), 500
+
+@app.route('/api/summary', methods=['GET', 'POST'])
+def get_summary():
+    """Summary endpoint for compatibility"""
+    dataset = request.args.get('dataset', 'salesforce')
+    
+    if hasattr(g, 'request_metadata'):
+        g.request_metadata['dataset'] = dataset
+        g.request_metadata['intent'] = 'summary'
+    
+    try:
+        agent = None
+        if dataset == 'salesforce' and salesforce_agent:
+            agent = salesforce_agent
+        elif dataset == 'amadeus' and amadeus_agent:
+            agent = amadeus_agent
+        else:
+            return jsonify({"error": "Dataset not found"}), 404
+        
+        result = agent.summary()
+        
+        if 'chart' in result:
+            chart_spec = result['chart'].to_dict()
+            result['vega_lite_spec'] = chart_spec
+        
+        return jsonify(result)
+    
+    except Exception as e:
+        if hasattr(g, 'request_metadata'):
+            g.request_metadata['error'] = str(e)
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/recommendations', methods=['GET', 'POST'])
+def get_recommendations():
+    """Recommendations endpoint for compatibility"""
+    dataset = request.args.get('dataset', 'salesforce')
+    
+    if hasattr(g, 'request_metadata'):
+        g.request_metadata['dataset'] = dataset
+        g.request_metadata['intent'] = 'recommendation'
+    
+    try:
+        agent = None
+        if dataset == 'salesforce' and salesforce_agent:
+            agent = salesforce_agent
+        elif dataset == 'amadeus' and amadeus_agent:
+            agent = amadeus_agent
+        else:
+            return jsonify({"error": "Dataset not found"}), 404
+        
+        result = agent.recommendations()
+        
+        return jsonify(result)
+    
+    except Exception as e:
+        if hasattr(g, 'request_metadata'):
+            g.request_metadata['error'] = str(e)
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/agent', methods=['POST'])
+def agent_endpoint():
+    """Generic agent endpoint for natural language queries"""
+    try:
+        data = request.get_json() or {}
+        query = data.get('query', '')
+        dataset = data.get('dataset', 'salesforce')
+        
+        if hasattr(g, 'request_metadata'):
+            g.request_metadata['dataset'] = dataset
+            g.request_metadata['intent'] = detect_intent(query, request.path)
+            g.request_metadata['filters'] = extract_filters_from_request(data)
+        
+        agent = None
+        if dataset == 'salesforce' and salesforce_agent:
+            agent = salesforce_agent
+        elif dataset == 'amadeus' and amadeus_agent:
+            agent = amadeus_agent
+        else:
+            return jsonify({"error": "Dataset not found"}), 404
+        
+        result = agent.handle(query)
+        
+        if 'chart' in result:
+            chart_spec = result['chart'].to_dict()
+            result['vega_lite_spec'] = chart_spec
+        
+        return jsonify(result)
+    
+    except Exception as e:
+        if hasattr(g, 'request_metadata'):
+            g.request_metadata['error'] = str(e)
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == '__main__':
     # Load data on startup
     load_data()
+    
+    print(f"[INFO] Flask app starting on {config_class.FLASK_HOST}:{config_class.FLASK_PORT}")
+    print(f"[INFO] Telemetry enabled: {config_class.ENABLE_TRACING}")
+    print(f"[INFO] Log directory: {config_class.LOG_DIR}")
     
     # Run the Flask app
     app.run(

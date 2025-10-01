@@ -13,12 +13,14 @@ class Config:
     """Base configuration class"""
     
     # Data Sources Configuration
+    # Use relative path from the config file location
+    _config_dir = Path(__file__).parent.parent
     DATA_BASE_DIR = os.getenv(
         'DATA_BASE_DIR', 
-        r"C:\Users\claud\OneDrive\Desktop\ESADE\Masters in Busienss Analytics\Apromore In-company project\Apromore Chatbot\Data Sources"
+        str(_config_dir / "Data Sources")
     )
     
-    SALESFORCE_CSV_FILE = os.getenv('SALESFORCE_CSV_FILE', 'SalesforceOffice_synthetic_varied_100users_V1.csv')
+    SALESFORCE_CSV_FILE = os.getenv('SALESFORCE_CSV_FILE', 'SalesforceOffice_synthetic_varied_100users_V1_with_teams.csv')
     AMADEUS_CSV_FILE = os.getenv('AMADEUS_CSV_FILE', 'amadeus-demo-full-no-fields.csv')
     CHARTS_OUTPUT_DIR = os.getenv('CHARTS_OUTPUT_DIR', 'charts')
     
@@ -66,6 +68,11 @@ class Config:
     LOG_FILE = os.getenv('LOG_FILE', 'logs/task_mining.log')
     ERROR_LOG_FILE = os.getenv('ERROR_LOG_FILE', 'logs/error.log')
     CONSOLE_LOGGING = os.getenv('CONSOLE_LOGGING', 'True').lower() == 'true'
+    LOG_DIR = os.getenv('LOG_DIR', './logs')
+    
+    # KPI Instrumentation Configuration
+    ENABLE_TRACING = os.getenv('ENABLE_TRACING', 'True').lower() == 'true'
+    TOLERANCE_PCT = float(os.getenv('TOLERANCE_PCT', '0.02'))  # 2% tolerance for metric verification
     
     # Security & Performance
     RATE_LIMIT_ENABLED = os.getenv('RATE_LIMIT_ENABLED', 'False').lower() == 'true'
@@ -105,10 +112,16 @@ class Config:
         return os.path.join(self.DATA_BASE_DIR, self.CHARTS_OUTPUT_DIR)
     
     @property
-    def LOG_DIR(self):
-        log_dir = Path(self.LOG_FILE).parent
-        log_dir.mkdir(parents=True, exist_ok=True)
-        return str(log_dir)
+    def TRACES_DIR(self):
+        traces_dir = Path(self.LOG_DIR) / 'traces'
+        traces_dir.mkdir(parents=True, exist_ok=True)
+        return str(traces_dir)
+    
+    @property
+    def KPIS_DIR(self):
+        kpis_dir = Path(self.LOG_DIR) / 'kpis'
+        kpis_dir.mkdir(parents=True, exist_ok=True)
+        return str(kpis_dir)
 
 class DevelopmentConfig(Config):
     """Development configuration"""

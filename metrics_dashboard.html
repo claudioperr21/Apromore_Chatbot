@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apromore Chatbot - Performance Metrics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .metric-card h2 {
+            color: #667eea;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .metric-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .metric-item:last-child {
+            border-bottom: none;
+        }
+        
+        .metric-label {
+            color: #666;
+            font-weight: 500;
+        }
+        
+        .metric-value {
+            color: #333;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .metric-value.good {
+            color: #10b981;
+        }
+        
+        .metric-value.warning {
+            color: #f59e0b;
+        }
+        
+        .metric-value.bad {
+            color: #ef4444;
+        }
+        
+        .refresh-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin: 10px;
+        }
+        
+        .refresh-btn:hover {
+            background: #5568d3;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 1.2em;
+        }
+        
+        .error {
+            background: #fee;
+            color: #c00;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .timestamp {
+            text-align: center;
+            color: white;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Performance Metrics Dashboard</h1>
+            <p class="subtitle">Apromore Chatbot Analytics</p>
+            <button class="refresh-btn" onclick="loadMetrics()">🔄 Refresh Metrics</button>
+        </header>
+        
+        <div id="loading" class="loading">Loading metrics...</div>
+        <div id="error" class="error" style="display: none;"></div>
+        <div id="timestamp" class="timestamp" style="display: none;"></div>
+        <div id="metrics" class="metrics-grid" style="display: none;"></div>
+    </div>
+    
+    <script>
+        function formatPercentage(value) {
+            if (value === null || value === undefined) return 'N/A';
+            return (value * 100).toFixed(2) + '%';
+        }
+        
+        function formatNumber(value, decimals = 2) {
+            if (value === null || value === undefined) return 'N/A';
+            return value.toFixed(decimals);
+        }
+        
+        function getValueClass(value, metricType) {
+            if (value === null || value === undefined) return '';
+            
+            if (metricType === 'accuracy') {
+                return value > 0.9 ? 'good' : value > 0.7 ? 'warning' : 'bad';
+            } else if (metricType === 'error') {
+                return value < 0.1 ? 'good' : value < 0.3 ? 'warning' : 'bad';
+            }
+            return '';
+        }
+        
+        function createMetricCard(title, items) {
+            const card = document.createElement('div');
+            card.className = 'metric-card';
+            
+            const header = document.createElement('h2');
+            header.textContent = title;
+            card.appendChild(header);
+            
+            items.forEach(item => {
+                const metricDiv = document.createElement('div');
+                metricDiv.className = 'metric-item';
+                
+                const label = document.createElement('span');
+                label.className = 'metric-label';
+                label.textContent = item.label;
+                
+                const value = document.createElement('span');
+                value.className = 'metric-value ' + (item.className || '');
+                value.textContent = item.value;
+                
+                metricDiv.appendChild(label);
+                metricDiv.appendChild(value);
+                card.appendChild(metricDiv);
+            });
+            
+            return card;
+        }
+        
+        async function loadMetrics() {
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            const metrics = document.getElementById('metrics');
+            const timestamp = document.getElementById('timestamp');
+            
+            loading.style.display = 'block';
+            error.style.display = 'none';
+            metrics.style.display = 'none';
+            timestamp.style.display = 'none';
+            
+            try {
+                const response = await fetch('http://localhost:5000/api/kpis/today');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                loading.style.display = 'none';
+                metrics.style.display = 'grid';
+                timestamp.style.display = 'block';
+                metrics.innerHTML = '';
+                
+                // Overview Card
+                const overviewCard = createMetricCard('📊 Overview', [
+                    { label: 'Date', value: data.date },
+                    { label: 'Total Requests', value: data.trace_count }
+                ]);
+                metrics.appendChild(overviewCard);
+                
+                // Accuracy Metrics
+                const accuracyCard = createMetricCard('✅ Accuracy Metrics', [
+                    { label: 'Grounded Accuracy', value: formatPercentage(data.grounded_accuracy_rate), className: getValueClass(data.grounded_accuracy_rate, 'accuracy') },
+                    { label: 'Routing Accuracy', value: formatPercentage(data.routing_accuracy), className: getValueClass(data.routing_accuracy, 'accuracy') },
+                    { label: 'Hallucination Rate', value: formatPercentage(data.hallucination_rate), className: getValueClass(data.hallucination_rate, 'error') },
+                    { label: 'Contradiction Rate', value: formatPercentage(data.contradiction_rate), className: getValueClass(data.contradiction_rate, 'error') }
+                ]);
+                metrics.appendChild(accuracyCard);
+                
+                // Latency Metrics
+                const latency = data.latency?.overall || {};
+                const latencyCard = createMetricCard('⚡ Latency Metrics', [
+                    { label: 'P50 (Median)', value: formatNumber(latency.p50_total) + ' ms' },
+                    { label: 'P95', value: formatNumber(latency.p95_total) + ' ms' },
+                    { label: 'Mean', value: formatNumber(latency.mean_total) + ' ms' }
+                ]);
+                metrics.appendChild(latencyCard);
+                
+                // Adoption Metrics
+                const adoption = data.adoption || {};
+                const adoptionCard = createMetricCard('👥 Adoption Metrics', [
+                    { label: 'Active Users (DAU)', value: adoption.wau || 0 },
+                    { label: 'Total Sessions', value: adoption.sessions || 0 },
+                    { label: 'Queries per Session', value: formatNumber(adoption.queries_per_session) },
+                    { label: 'Total Queries', value: adoption.total_queries || 0 }
+                ]);
+                metrics.appendChild(adoptionCard);
+                
+                // Resolution Metrics
+                const resolution = data.resolution || {};
+                const resolutionCard = createMetricCard('🎯 Resolution Metrics', [
+                    { label: 'Resolution Rate', value: formatPercentage(resolution.sessions_resolved_rate) },
+                    { label: 'Turns to Resolution (P50)', value: formatNumber(resolution.turns_to_resolution_p50) }
+                ]);
+                metrics.appendChild(resolutionCard);
+                
+                timestamp.textContent = `Last updated: ${new Date().toLocaleString()}`;
+                
+            } catch (err) {
+                loading.style.display = 'none';
+                error.style.display = 'block';
+                error.innerHTML = `
+                    <h3>❌ Error Loading Metrics</h3>
+                    <p>${err.message}</p>
+                    <p style="margin-top: 10px;">
+                        <strong>Possible solutions:</strong><br>
+                        • Make sure the backend server is running on port 5000<br>
+                        • You need to use <code>backend/app.py</code> (not chat_api.py) for KPI metrics<br>
+                        • Try using the chatbot first to generate data<br>
+                        • Check the browser console for more details
+                    </p>
+                `;
+                console.error('Error loading metrics:', err);
+            }
+        }
+        
+        // Load metrics on page load
+        loadMetrics();
+        
+        // Auto-refresh every 30 seconds
+        setInterval(loadMetrics, 30000);
+    </script>
+</body>
+</html>
+
